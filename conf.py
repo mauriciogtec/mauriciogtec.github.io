@@ -40,26 +40,26 @@ html_theme_options = {
     "search_bar_text": "Search this site...",
     "analytics": {"google_analytics_id": "UA-123676799-1"},
     "icon_links": [
-        # {
-        #     "name": "GitHub",
-        #     "url": "https://github.com/mauriciogtec/",
-        #     "icon": "fa-brands fa-github",
-        # },
-        # {
-        #     "name": "Twitter",
-        #     "url": "https://twitter.com/mauriciogtec",
-        #     "icon": "fa-brands fa-twitter",
-        # },
-        # {
-        #     "name": "Google Scholar",
-        #     "url": "https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=enc",
-        #     "icon": "fa-solid fa-graduation-cap",
-        # },
-        # {
-        #     "name": "LinkedIn",
-        #     "url": "https://www.linkedin.com/in/mauriciogtec",
-        #     "icon": "fa-brands fa-linkedin",
-        # },
+        {
+            "name": "GitHub",
+            "url": "https://github.com/mauriciogtec/",
+            "icon": "fa-brands fa-github",
+        },
+        {
+            "name": "Twitter",
+            "url": "https://twitter.com/mauriciogtec",
+            "icon": "fa-brands fa-twitter",
+        },
+        {
+            "name": "Google Scholar",
+            "url": "https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=enc",
+            "icon": "fa-solid fa-graduation-cap",
+        },
+        {
+            "name": "LinkedIn",
+            "url": "https://www.linkedin.com/in/mauriciogtec",
+            "icon": "fa-brands fa-linkedin",
+        },
         # # {
         #     "name": "Blog RSS feed",
         #     "url": "https://chrisholdgraf.com/blog/atom.xml",

@@ -91,9 +91,9 @@ html_sidebars = {
 # }
 
 
-rediraffe_redirects = {
-    "rust-governance.md": "blog/2018/rust_governance.md",
-}
+# rediraffe_redirects = {
+#     "rust-governance.md": "blog/2018/rust_governance.md",
+# }
 # Update the posts/* section of the rediraffe redirects to find all files
 redirect_folders = {
     "posts": "blog",

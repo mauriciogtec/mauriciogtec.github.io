@@ -1,4 +1,10 @@
-# Chris' personal website
+# Mauricio's personal website
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e6df9d05-bdbb-4edc-9c89-872e526c6650/deploy-status)](https://app.netlify.com/sites/trusting-wilson-65327b/deploys)
+
+This website was built on code from [Chris Holdgraf's new blog template](https://chrisholdgraf.com/blog/2020/sphinx-blogging/).
+
+------------
 
 This is my personal website, built with Sphinx!
 
@@ -33,9 +39,3 @@ nox -s docs -- live
 ```shell
 nox -s lab
 ```
-
-## Update my publications
-
-The script in `scripts/orcid-publications.py` will use [the ORCID APi](https://info.orcid.org/documentation/api-tutorials/api-tutorial-read-data-on-a-record/) to download all of the records associated with my ORCID account.
-
-It generates some markdown that is then inserted into my documentation in `publications.md`.

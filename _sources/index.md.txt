@@ -60,10 +60,13 @@ My blog 📝
 * Intel AI, Research Intern, 2019
 * Graduate Research Assistant, The University of Texas at Austin, 2018 - 2021
 
-## Full CV
+### CV
 
 [Download here](_static/cv.pdf). *Last updated:* 2023-12-15.
 
+Use the top menu or the sidebar for my **social media**.
+
+### My Family
 
 <img src="_static/family.jpeg" alt="family" width="500"/>
 

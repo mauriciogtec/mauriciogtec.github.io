@@ -30,4 +30,6 @@ Complementary to RL, my current research seeks to advance deep-learning methods 
 
 [Download here](_static/cv.pdf). *Last updated:* 2023-12-15.
 
+<!-- add link that opens xlink:href in new tab -->
+
 ![family](_static/family.jpeg)

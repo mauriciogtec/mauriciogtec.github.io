@@ -25,8 +25,47 @@ My blog 📝
 <!-- :::: -->
 
 
+### Education
 
-## News
+* Ph.D. in Statistics, The University of Texas at Austin, USA, 2022
+* M.S. in Mathematics, University of Cambridge, UK, 2015
+* B.S. in Applied Mathematics, ITAM, MX, 2013
+
+### Experience
+* Harvard University, Postdoctoral Fellow, 2022 - present
+* Facebook AI Research, Research Intern, 2020
+* Intel AI, Research Intern, 2019
+* Graduate Research Assistant, The University of Texas at Austin, 2018 - 2021
+
+### CV
+
+<!-- [Download here](_static/cv.pdf). *Last updated:* 2023-12-15. -->
+
+<a href="_static/cv.pdf" target="_blank"> ⬇ Download here</a>.
+
+*Last updated:* 2023-12-15.
+
+
+Use the top menu or sidebar for my **social media** and contact.
+
+### My Family
+
+<img src="_static/family.jpeg" alt="family" width="500"/>
+
+
+```{toctree}
+:maxdepth: 2
+:hidden:
+<!-- about -->
+<!-- projects -->
+<!-- publications -->
+<!-- talks -->
+<!-- blog -->
+```
+
+
+
+### News
 
 - **[2023-12-10]** Started this new website based on [Chris Holdgraf's new blog template](https://chrisholdgraf.com/blog/2020/sphinx-blogging/).
 
@@ -46,38 +85,3 @@ My blog 📝
   
 - **[2022-08-15]** Started a postdoc at Harvard University, Department of Biostatistics, focusing on novel AI/ML methods with applications in climate and health.
   
-
-
-### Education
-
-* Ph.D. in Statistics, The University of Texas at Austin, USA, 2022
-* M.S. in Mathematics, University of Cambridge, UK, 2015
-* B.S. in Applied Mathematics, ITAM, MX, 2013
-
-### Experience
-* Harvard University, Postdoctoral Fellow, 2022 - present
-* Facebook AI Research, Research Intern, 2020
-* Intel AI, Research Intern, 2019
-* Graduate Research Assistant, The University of Texas at Austin, 2018 - 2021
-
-### CV
-
-[Download here](_static/cv.pdf). *Last updated:* 2023-12-15.
-
-Use the top menu or the sidebar for my **social media**.
-
-### My Family
-
-<img src="_static/family.jpeg" alt="family" width="500"/>
-
-
-```{toctree}
-:maxdepth: 2
-:hidden:
-<!-- about -->
-<!-- projects -->
-<!-- publications -->
-<!-- talks -->
-<!-- blog -->
-```
-

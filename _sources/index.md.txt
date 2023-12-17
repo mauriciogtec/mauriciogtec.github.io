@@ -7,6 +7,7 @@ I am a postdoctoral fellow at Harvard University currently working on reinforcem
 
 
 ![robot-detective](_static/robot-detective.jpeg)
+<!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->
 
 <!-- ::::{grid}
 :::{grid-item-card}
@@ -63,7 +64,8 @@ My blog 📝
 
 [Download here](_static/cv.pdf). *Last updated:* 2023-12-15.
 
-![family](_static/family.jpeg)
+
+<img src="_static/family.jpeg" alt="family" width="500"/>
 
 
 ```{toctree}

@@ -1,0 +1,24 @@
+{%- extends "pydata_sphinx_theme/layout.html" %}
+{%- block extrahead %}
+{{ super() }}
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
+        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
+{% endblock %}
+
+{% block docs_body %}
+{{ super() }}
+<!-- Add a comment box underneath the page's content -->
+<script src="https://giscus.app/client.js"
+        data-repo="mauriciogtec/blog3"
+        data-repo-id=""
+        data-category="Blog comments"
+        data-category-id="DIC_kwDOAw3Qvs4CAV4E"
+        data-mapping="pathname"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-theme="light"
+        data-lang="en"
+        crossorigin="anonymous"
+        async>
+</script>
+{% endblock %}

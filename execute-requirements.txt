@@ -1,0 +1,11 @@
+# Dependencies for *executing* the content in this blog.
+colorspacious
+download
+ipywidgets
+jupyterlab
+jupytext
+matplotlib
+numpy
+pandas
+scipy
+seaborn

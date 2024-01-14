@@ -1,0 +1,5 @@
+# Live CV
+
+<div style="position: relative; padding-bottom: 70%; height: 0; overflow: hidden;">
+    <iframe src="https://mauriciogtec-live-cv.streamlit.app/?embed=true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+</div>

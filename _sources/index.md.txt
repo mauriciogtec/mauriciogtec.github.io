@@ -41,12 +41,12 @@ My blog 📝
 
 <!-- [Download here](_static/cv.pdf). *Last updated:* 2023-12-15. -->
 
-<a href="_static/cv.pdf" target="_blank"> ⬇ Download here</a>.
-
-*Last updated:* 2023-12-15.
+* You can download a reasonable update <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-01-15.
 
 
-Use the top menu or sidebar for my **social media** and contact.
+* You can also try my <a href="cv.md" target="_blank"> 🤖 LIVE CV</a>, powered by AI. Have fun asking your own questions.
+  
+
 
 ### My Family
 
@@ -56,11 +56,7 @@ Use the top menu or sidebar for my **social media** and contact.
 ```{toctree}
 :maxdepth: 2
 :hidden:
-<!-- about -->
-<!-- projects -->
-<!-- publications -->
-<!-- talks -->
-<!-- blog -->
+livecv
 ```
 
 

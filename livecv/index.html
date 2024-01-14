@@ -6,8 +6,18 @@
 
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>All Posts &#8212; Mauricio Tec&#39;s website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta property="og:title" content="Live CV" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="livecv/" />
+<meta property="og:site_name" content="Mauricio Tec's Personal Website" />
+<meta property="og:image:width" content="1146" />
+<meta property="og:image:height" content="600" />
+<meta property="og:image" content="/_images/social_previews/summary_livecv_5f225609.png" />
+<meta property="og:image:alt" content="" />
+<meta name="twitter:card" content="summary_large_image" />
+
+    <title>Live CV &#8212; Mauricio Tec&#39;s website</title>
   
   
   
@@ -58,11 +68,12 @@
                 gtag('js', new Date());
                 gtag('config', 'UA-123676799-1');
             </script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'blog';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'livecv';</script>
     <link rel="icon" href="../_static/profile-color-circle-small.png"/>
     <link rel="author" title="About these documents" href="../about/" />
     <link rel="index" title="Index" href="../genindex/" />
     <link rel="search" title="Search" href="../search/" />
+    <link rel="prev" title="Mauricio Tec" href="../" />
 
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
@@ -75,7 +86,7 @@
   rel="alternate"
   type="application/atom+xml"
   href="../blog/atom.xml"
-  title=""
+  title="Mauricio Tec"
 />
 
 
@@ -167,8 +178,8 @@
 <nav class="navbar-nav">
   <ul class="bd-navbar-elements navbar-nav">
     
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../livecv/">
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
                         Live CV
                       </a>
                     </li>
@@ -297,7 +308,7 @@ document.write(`
       
         
       
-      <div class="bd-sidebar-primary bd-sidebar hide-on-wide">
+      <div class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -310,8 +321,8 @@ document.write(`
 <nav class="navbar-nav">
   <ul class="bd-navbar-elements navbar-nav">
     
-                    <li class="nav-item">
-                      <a class="nav-link nav-internal" href="../livecv/">
+                    <li class="nav-item current active">
+                      <a class="nav-link nav-internal" href="#">
                         Live CV
                       </a>
                     </li>
@@ -393,6 +404,96 @@ document.write(`
     
   </div>
   
+    <div class="sidebar-primary-items__start sidebar-primary__section">
+        <div class="sidebar-primary-item"><div class="profile-pic"><img src="../_static/profile-bw.png" /></div>
+
+<div class="bio-info">
+    <div class="name">
+        Mauricio Tec
+    </div>
+    <div class="focusareas", style="align-items: center;">
+        AI | Stats | Social Impact | Robotics | Food
+    </div>
+    <div class="whatido">
+        Drag and click for fun:
+        <div id="myGraph" style="fill: rgb(25, 173, 227);"></div>
+    </div> 
+    <!-- for the next use monospace font -->
+    <div class="email">
+        <b>Email:</b> mauriciogtec-at-hsph.harvard.edu
+    </div>
+    <br>
+    <div>
+        For more fun, try my <a href="#livecv"> 🤖 LIVE CV</a>, powered by AI, and ask your own questions.
+    </div>
+</div>
+
+<style>
+    .nodetext {
+        visibility: visible;
+        text-anchor: middle;
+        font-size: 11px;
+        dominant-baseline: middle;
+    }
+
+    .node {
+        cursor: pointer;
+    }
+</style>
+<script src="https://d3js.org/d3.v7.min.js"></script>
+<script>
+    var svg = d3.select("#myGraph").append("svg").attr("width", 200).attr("height", 200);
+    var nodes_data = [
+        { id: 1, image: "../_static/icon-github-blue.svg", link: "https://github.com/mauriciogtec", label: "Github" },
+        { id: 2, image: "../_static/icon-twitter-blue.svg", link: "https://twitter.com/mauriciogtec", label: "Twitter" },
+        { id: 3, image: "../_static/icon-scholar-blue.svg", link: "https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en", label: "Google Scholar" },
+        { id: 4, image: "../_static/icon-linkedin-blue.svg", link: "https://www.linkedin.com/in/mauriciogtec/", label: "Linkedin" },
+        { id: 5, image: "../_static/icon-cv-blue.svg", link: "../_static/cv.pdf", label: "CV" }
+    ];
+    var links_data = [{ source: 1, target: 2 }, { source: 2, target: 3 }, { source: 3, target: 4 }, { source: 4, target: 5 }, { source: 5, target: 1 }];
+    var simulation = d3.forceSimulation(nodes_data)
+        .force("link", d3.forceLink().id(d => d.id))
+        .force("charge", d3.forceManyBody().strength(-1000))
+        .force("center", d3.forceCenter(100, 100))
+        .force("radial", d3.forceRadial(function (d) {
+            return Math.sqrt(d.x * d.x + d.y * d.y);
+        }).strength(0.3)).alpha(0.3);
+    var link = svg.append("g").selectAll("line").data(links_data).enter().append("line");
+    var node = svg.append("g").selectAll("g").data(nodes_data).enter().append("g").attr("class", "node");
+    var images = node.append("image").attr("xlink:href", d => d.image).attr("width", 35).attr("height", 35).attr("transform", "translate(-20,-20)").call(d3.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended));
+    images.on("mouseover", function () {
+        d3.select(this).attr("width", 45).attr("height", 45).attr("transform", "translate(-25,-25)");
+        d3.select(this.parentNode).select("text").style("fill", "rgb(40, 200, 260)").style("visibility", "visible").style("font-size", "13px");
+    })
+        .on("mouseout", function () {
+            d3.select(this).attr("width", 35).attr("height", 35).attr("transform", "translate(-20,-20)");
+            d3.select(this.parentNode).select("text").style("fill", "rgb(25, 173, 227)").style("visibility", "visible").style("font-size", "11px");
+        })
+    node.append("text").attr("class", "nodetext").attr("dy", 32).style("visibility", "visible").text(d => d.label);
+    node.attr("href", d => d.link).on("click", function (event, d) { window.open(d.link, "_blank"); });
+    simulation.nodes(nodes_data).on("tick", ticked);
+    simulation.force("link").links(links_data);
+    function ticked() {
+        link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
+        node.attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; });
+    }
+    function dragstarted(event, d) {
+        if (!event.active) simulation.alphaTarget(0.3).restart();
+        d.fx = d.x;
+        d.fy = d.y;
+    }
+    function dragged(event, d) {
+        d.fx = event.x;
+        d.fy = event.y;
+    }
+    function dragended(event, d) {
+        if (!event.active) simulation.alphaTarget(0.1);
+        d.fx = null;
+        d.fy = null;
+    }
+</script></div>
+    </div>
+  
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
   </div>
@@ -425,7 +526,7 @@ document.write(`
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page">All Posts</li>
+    <li class="breadcrumb-item active" aria-current="page">Live CV</li>
   </ul>
 </nav>
 </div>
@@ -443,16 +544,14 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
+<section id="live-cv">
+<h1>Live CV<a class="headerlink" href="#live-cv" title="Link to this heading">#</a></h1>
+<div style="position: relative; padding-bottom: 70%; height: 0; overflow: hidden;">
+    <iframe src="https://mauriciogtec-live-cv.streamlit.app/?embed=true" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: none;"></iframe>
+</div>
+</section>
 
-<div class="section ablog__collection">
-  <h1>
-    
-      All
-      
-    Posts
-    
-  </h1>
-  
+<div class="section ablog__blog_comments">
   
   
 </div>
@@ -481,6 +580,15 @@ document.write(`
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Mauricio Tec</p>
+      </div>
+    </a>
 </div>
                 </footer>
               
@@ -488,7 +596,19 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+
+  <div class="tocsection sourcelink">
+    <a href="../_sources/livecv.md.txt">
+      <i class="fa-solid fa-file-lines"></i> Show Source
+    </a>
+  </div>
+</div>
+
+</div></div>
               
             
           </div>

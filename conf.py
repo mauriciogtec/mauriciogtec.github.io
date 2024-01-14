@@ -79,6 +79,7 @@ html_sidebars = {
     "projects": ["hello.html"],
     "other": ["hello.html"],
     "talks": ["hello.html"],
+    "livecv": ["hello.html"],
     "blog": ["ablog/categories.html", "ablog/tagcloud.html", "ablog/archives.html"],
     "blog/**": ["ablog/postcard.html", "ablog/recentposts.html", "ablog/archives.html"],
 }

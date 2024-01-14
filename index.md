@@ -44,7 +44,7 @@ My blog 📝
 * You can download a reasonable update <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-01-15.
 
 
-* You can also try my <a href="cv.md" target="_blank"> 🤖 LIVE CV</a>, powered by AI. Have fun asking your own questions.
+* You can also try my <a href="livecv"> 🤖 LIVE CV</a>, powered by AI. Have fun asking your own questions.
   
 
 

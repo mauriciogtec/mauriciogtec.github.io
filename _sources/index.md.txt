@@ -44,7 +44,7 @@ My blog 📝
 * You can download a reasonable update <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-01-15.
 
 
-* You can also try my <a href="livecv"> 🤖 LIVE CV</a>, powered by AI. Have fun asking your own questions.
+* You can also try my <a href="mauriciogtec-live-cv.streamlit.app"> 🤖 LIVE CV</a>, powered by AI. Have fun asking your own questions.
   
 
 
@@ -52,12 +52,12 @@ My blog 📝
 
 <img src="_static/family.jpeg" alt="family" width="500"/>
 
-
+<!-- 
 ```{toctree}
 :maxdepth: 2
 :hidden:
 livecv
-```
+``` -->
 
 
 

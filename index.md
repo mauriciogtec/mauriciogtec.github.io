@@ -39,9 +39,7 @@ My blog 📝
 
 ### CV
 
-<!-- [Download here](_static/cv.pdf). *Last updated:* 2023-12-15. -->
-
-* You can download a reasonable update <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-01-15.
+* You can download a reasonable update <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-01-16.
 
 
 * You can also try my [🤖 LIVE CV](https://mauriciogtec-live-cv.streamlit.app), powered by AI. Have fun asking your own questions.
@@ -51,7 +49,6 @@ My blog 📝
 ### My Family
 
 <img src="_static/family.jpeg" alt="family" width="500"/>
-
 
 
 ### News

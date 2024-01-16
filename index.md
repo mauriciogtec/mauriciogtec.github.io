@@ -79,10 +79,10 @@ My blog 📝
 - **[2022-08-15]** Started a postdoc at Harvard University, Department of Biostatistics, focusing on novel AI/ML methods with applications in climate and health.
   
 
-  <!-- 
+<!-- 
 ```{toctree}
 :maxdepth: 2
 :hidden:
 livecv
-``` -->
+```-->
 

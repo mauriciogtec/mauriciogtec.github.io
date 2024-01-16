@@ -52,16 +52,13 @@ My blog 📝
 
 <img src="_static/family.jpeg" alt="family" width="500"/>
 
-<!-- 
-```{toctree}
-:maxdepth: 2
-:hidden:
-livecv
-``` -->
-
 
 
 ### News
+
+- **[2024-01-16]** 🔥 New paper: [SpaCE](https://arxiv.org/pdf/2312.00710.pdf) paper has been accepted to ICLR 2024. See you in Vienna!
+
+- **[2024-01-15]** 🤖 Created a [LIVE CV](https://mauriciogtec-live-cv.streamlit.app), powered by retrieval augmented generation. Have fun asking your own questions about my research and work experience.
 
 - **[2023-12-10]** Started this new website based on [Chris Holdgraf's new blog template](https://chrisholdgraf.com/blog/2020/sphinx-blogging/).
 
@@ -81,3 +78,11 @@ livecv
   
 - **[2022-08-15]** Started a postdoc at Harvard University, Department of Biostatistics, focusing on novel AI/ML methods with applications in climate and health.
   
+
+  <!-- 
+```{toctree}
+:maxdepth: 2
+:hidden:
+livecv
+``` -->
+

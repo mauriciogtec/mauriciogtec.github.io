@@ -78,6 +78,7 @@ My blog 📝
 ```{toctree}
 :maxdepth: 2
 :hidden:
-livecv
-```-->
+<!-- livecv -->
+```
+-->
 

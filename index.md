@@ -3,7 +3,7 @@ html_theme.sidebar_secondary.remove: true
 ---
 # Mauricio Tec
 
-I am a postdoctoral fellow at Harvard University currently working on reinforcement learning (RL) and deep learning methods motivated by real-world applications, particularly to mitigate the health impacts of climate change. I'm also interested in robotics 🤖 and food 🍣.
+I am a postdoctoral fellow at Harvard University working on improving the applicability of reinforcement learning (RL) and AI-driven decision-making in real-world applications. I'm also interested in robotics 🤖 and food 🍣.
 
 
 ![robot-detective](_static/robot-detective.jpeg)
@@ -61,11 +61,9 @@ My blog 📝
 
 - **[2023-10-01]** New ArXiV paper (full version) [*SpaCE: The Spatial Confounding Paper*](https://arxiv.org/pdf/2312.00710.pdf).
 
-- **[2023-09-01]** Promoted to Research Associate.
-
-- **[2023-05-15]** New grant as Co-PI awarded by the [Harvard Chan-NIEHS](https://www.hsph.harvard.edu/niehs/): *"Developing deep learning methods to estimate the effects of climate change on PM2.5 exposure and disparities across racial/ethnic and income groups."*
-
-- **[2023-03-14]** Our paper [*Projecting the climate penalty on pm2.5 pollution with spatial deep learning*](https://www.climatechange.ai/papers/iclr2023/63) has been accepted for a poster presentation at the TCCML workshop at ICLR 2023.
+- **[2023-09-01]** Promoted to Research Associate at Harvard University. I will continue my research as usual but take on more projects in a senior role and propose grant applications.
+  
+- **[2023-05-15]** New grant as Co-PI awarded by the [Harvard Chan-NIEHS](https://www.hsph.harvard.edu/niehs/) to develop new deep learning architectures for projecting climate change's health impacts, combining causal inference with computer vision and graph neural networks. The associated paper [*Projecting the climate penalty on pm2.5 pollution with spatial deep learning*](https://www.climatechange.ai/papers/iclr2023/63) has been accepted for a poster presentation at the TCCML workshop at ICLR 2023.
   
 - **[2023-03-01]** New ArXiV paper [*Causal Estimation of Exposure Shifts with Neural networks*](https://arxiv.org/pdf/2302.02560.pdf).
 

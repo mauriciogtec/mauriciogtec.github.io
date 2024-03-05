@@ -3,7 +3,7 @@ html_theme.sidebar_secondary.remove: true
 ---
 # Mauricio Tec
 
-I am a Research Associate at Harvard University interested in AI for decision-making. My main expertise is in reinforcement learning (RL) which I complement with statistical modeling and causality. I currently work on applications to improve adaptation and mitigation strategies for climate change's health impacts. I was a member of the [UT Austin Villa](https://www.cs.utexas.edu/~AustinVilla/) Robot Soccer Team. I'm increasingly fascinated by LLMs/foundation models and their potential to enhance RL and other sequential decision-making algorithms.
+I am a Research Associate at Harvard University interested in AI for decision-making. My main expertise is in reinforcement learning (RL) which I complement with computer vision, statistical modeling, and causality. I currently work on applications to improve adaptation and mitigation strategies for climate change's health impacts. I was a member of the [UT Austin Villa](https://www.cs.utexas.edu/~AustinVilla/) Robot Soccer Team. I'm increasingly fascinated by LLMs/foundation models and their potential to enhance/ground RL and other sequential decision-making algorithms.
 
 ![robot-detective](_static/robot-detective.jpeg)
 <!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->

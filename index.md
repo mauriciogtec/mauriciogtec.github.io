@@ -3,7 +3,7 @@ html_theme.sidebar_secondary.remove: true
 ---
 # Mauricio Tec
 
-I am a Research Associate at Harvard University interested in AI for decision-making. My main expertise is in reinforcement learning (RL) which I complement with statistical modeling and causality. I currently work on applications to improve adaptation and mitigation strategies for climate change's health impacts. I was a member of the UT Austin Villa Robot Soccer Team. I'm increasingly fascinated by LLMs/foundation models and their potential to enhance RL and other sequential decision-making algorithms.
+I am a Research Associate at Harvard University interested in AI for decision-making. My main expertise is in reinforcement learning (RL) which I complement with statistical modeling and causality. I currently work on applications to improve adaptation and mitigation strategies for climate change's health impacts. I was a member of the [UT Austin Villa](https://www.cs.utexas.edu/~AustinVilla/) Robot Soccer Team. I'm increasingly fascinated by LLMs/foundation models and their potential to enhance RL and other sequential decision-making algorithms.
 
 ![robot-detective](_static/robot-detective.jpeg)
 <!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->
@@ -24,17 +24,19 @@ My blog 📝
 <!-- :::: -->
 
 
-### Education
-
-* Ph.D. in Statistics (Machine Learning), The University of Texas at Austin, USA
-* M.S. in Mathematics, University of Cambridge, UK
-* B.S. in Applied Mathematics, ITAM, MX
-* 
 ### Experience
 * Harvard University, Research Associate, 2022 - 
 * Facebook AI Research, Research Intern, 2020
 * Intel AI, Research Intern, 2019
 * Graduate Research Assistant, The University of Texas at Austin, 2018 - 2021
+
+### Education
+
+* Ph.D. in Statistics (Machine Learning), The University of Texas at Austin, USA
+* M.S. in Mathematics, University of Cambridge, UK
+* B.S. in Applied Mathematics, ITAM, MX
+* Exchange student at Université Paris-Dauphine, FR
+  
 
 ### CV
 

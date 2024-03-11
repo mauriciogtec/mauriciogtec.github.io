@@ -3,7 +3,7 @@ html_theme.sidebar_secondary.remove: true
 ---
 # Mauricio Tec
 
-I am a Research Associate at Harvard University interested in AI for decision-making. My main expertise is in reinforcement learning (RL) which I complement with deep learning, statistical modeling, and causality. I currently work on applications to improve adaptation and mitigation strategies for climate change's health impacts. I was a member of the [UT Austin Villa](https://www.cs.utexas.edu/~AustinVilla/) Robot Soccer Team. I'm increasingly fascinated by LLMs/foundation models and their potential to enhance/ground RL and other sequential decision-making algorithms.
+I am a Research Associate at Harvard University interested in AI for decision-making. My main expertise is in reinforcement learning (RL) which I complement with deep learning, statistical modeling, and causality. I am particularly focused on application-driven methodology. I was a member of the [UT Austin Villa](https://www.cs.utexas.edu/~AustinVilla/) Robot Soccer Team. I'm increasingly fascinated by LLMs/foundation models and their potential to enhance/ground RL and other decision-making algorithms.
 
 ![robot-detective](_static/robot-detective.jpeg)
 <!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->
@@ -62,7 +62,8 @@ My blog 📝
 
 - **[2023-09-01]** Promoted to Research Associate at Harvard University. I will continue my research as usual but take on more projects in a senior role and propose grant applications.
   
-- **[2023-05-15]** New grant as Co-PI awarded by the [Harvard Chan-NIEHS](https://www.hsph.harvard.edu/niehs/) to develop new deep learning architectures for projecting climate change's health impacts, combining causal inference with computer vision and graph neural networks.
+- **[2023-05-15]** New grant as Co-PI awarded by the [Harvard Chan-NIEHS](https://www.hsph.harvard.edu/niehs/) to develop new computer vision architectures that are robust for prediction under covariate shift (with applications to projecting climate change's health impacts).
+<!-- - for projecting climate change's health impacts, combining causal inference with computer vision and graph neural networks. -->
 
 
 - **[2023-03-01]** New ArXiV paper [*Causal Estimation of Exposure Shifts with Neural networks*](https://arxiv.org/pdf/2302.02560.pdf).

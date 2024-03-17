@@ -25,10 +25,11 @@ My blog 📝
 
 
 ### Experience
-* Harvard University, Research Associate, 2022 - 
-* Facebook AI Research, Research Intern, 2020
-* Intel AI, Research Intern, 2019
-* Graduate Research Assistant, The University of Texas at Austin, 2018 - 2021
+* Harvard University, *Research Associate*, 2023+
+* Harvard University, *Postdoctoral Fellow*, 2022--2023
+* Meta AI (FAIR), *Research Intern*, 2020
+* Intel AI, *Research Intern*, 2019
+* CIBanco, *Data Scientist*, 2016--2017
 
 ### Education
 

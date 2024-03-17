@@ -33,11 +33,10 @@ My blog 📝
 
 ### Education
 
-* Ph.D. in Statistics (Machine Learning), The University of Texas at Austin, USA
-* M.S. in Mathematics, University of Cambridge, UK
-* B.S. in Applied Mathematics, ITAM, MX
-* Exchange student at Université Paris-Dauphine, FR
-  
+* Ph.D. in Statistics (Machine Learning), *UT Austin*
+* M.S. in Mathematics, *University of Cambridge*
+* B.S. in Applied Mathematics, *ITAM*
+<!-- * Exchange student at Université Paris-Dauphine -->
 
 ### CV
 

@@ -3,7 +3,7 @@ html_theme.sidebar_secondary.remove: true
 ---
 # Mauricio Tec
 
-I am a Research Associate at Harvard University interested in AI for decision-making. My research integrates tools from reinforcement learning, deep learning, Bayesian statistics, and causality. I pursue fundamental research towards expanding the capabilities of AI systems. Currently, I'm fascinated by the potential of LLMs and foundation models to enhance decision-making agents. My work is also often motivated by real applications with social impact. During my Ph.D., I was a member of the [UT Austin Villa](https://www.cs.utexas.edu/~AustinVilla/) Robot Soccer Team where I worked on a low-resource robot vision system using neural networks.
+I am a Research Associate at Harvard University interested in decision-making AI. My research pursues fundamental research toward expanding the capabilities of AI systems, integrating tools from reinforcement learning, deep learning, Bayesian inference, and causality. My work is also often motivated by real applications with social impact. Currently, I'm fascinated by the potential of LLMs and foundation models to enhance decision-making agents. During my Ph.D., I was a member of the [UT Austin Villa](https://www.cs.utexas.edu/~AustinVilla/) Robot Soccer Team where I worked on a low-resource robot vision system using neural networks.
 
 ![robot-detective](_static/robot-detective.jpeg)
 <!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->

@@ -5,7 +5,7 @@ html_theme.sidebar_secondary.remove: true
 
 I am a research associate at Harvard University working on decision-making AI. I pursue fundamental research expanding the capabilities of AI systems, integrating tools from reinforcement learning, deep learning, causality, and statistical modeling, as well as social impact applications in health settings. I'm currently fascinated by the potential of LLMs and foundation models to expand the capabilities of AI agents, particularly for reinforcement learning. 
 
-I am taking interns and students co-advised with faculty members. Current topics of interest include foundation world models, reinforcement learning, and deep learning architectures for geospatial and health data.
+I am taking interns and co-advising research projects. Current topics of interest include foundation world models, reinforcement learning, and novel deep learning architectures for graph and topological domains motivated by geospatial and computer vision data. If you are interested in working with me, please reach out.
 
 <!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->
 

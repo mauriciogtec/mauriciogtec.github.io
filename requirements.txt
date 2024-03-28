@@ -4,7 +4,7 @@ ipython!=8.7.0
 matplotlib
 myst_nb
 MyST-Parser
-pydata-sphinx-theme>=0.13.0rc1
+pydata-sphinx-theme>=0.15.2
 rich
 sphinx
 sphinx-autobuild

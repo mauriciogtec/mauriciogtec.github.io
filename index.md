@@ -3,9 +3,9 @@ html_theme.sidebar_secondary.remove: true
 ---
 # Mauricio Tec
 
-I am a research associate at Harvard University working on decision-making AI. I pursue fundamental research expanding the capabilities of AI systems, integrating tools from reinforcement learning, deep learning, causality, and statistical modeling, as well as social impact applications in health settings. I'm currently fascinated by the potential of LLMs and foundation models to expand the capabilities of AI agents, particularly for reinforcement learning. 
+I am a research associate at Harvard University working on decision-making AI. In particular, my work focuses on reinforcement learning and deep learning methodology, often in combination with statistical modeling and causality tools. I'm also very interested in robotics and social impact applications for climate change adaptation and health.
 
-I am taking interns and co-advising research projects. Current topics of interest include foundation world models, reinforcement learning, and novel deep learning architectures for graph and topological domains motivated by geospatial and computer vision data. If you are interested in working with me, please reach out.
+I am taking interns and co-advising research projects. My current topics of interest include foundation models and LLMs for reinforcement learning and planning and novel deep learning architectures for graph and topological domains motivated by geospatial and computer vision data. If you are interested in working with me, please reach out. 
 
 <!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->
 
@@ -24,6 +24,10 @@ My blog 📝
 ::: -->
 <!-- :::: -->
 
+**About Me**. I completed my Ph.D. in Statistics at UT Austin, where I worked on reinforcement learning and computer vision for applications in spatial domains. During that time, I held internships at Meta AI (FAIR) and Intel AI and was a member of the UT Covid-19 Modeling Consortium and the UT Austin Villa Robot Soccer Team where I worked on vision systems for autonomous robots. Before my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Mathematics at the University of Cambridge.
+
+
+![robot-detective](_static/robot-detective.jpeg)
 
 #### News
 
@@ -49,25 +53,19 @@ My blog 📝
 
 Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), powered by LLMs and RAG. Have fun asking your own questions. You can also download an outdated pdf <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-01-16.
 
-#### Robot Soccer
-
-During my Ph.D. at UT Austin, I was a member of the [UT Austin Villa](https://www.cs.utexas.edu/~AustinVilla/) Robot Soccer Team where I worked on a low-resource robot vision system using neural networks.
-
-![robot-detective](_static/robot-detective.jpeg)
-
-#### Experience
+<!-- #### Experience
 
 * Harvard University, *Research Associate*, 2023+
 * Harvard University, *Postdoctoral Fellow*, 2022--2023
 * Meta AI (FAIR), *Research Intern*, 2020
 * Intel AI, *Research Intern*, 2019
-* CIBanco, *Data Scientist*, 2016--2017
+* CIBanco, *Data Scientist*, 2016--2017 -->
 
-#### Education
+<!-- #### Education
 
 * Ph.D. in Statistics (Machine Learning), *UT Austin*
 * M.S. in Mathematics, *University of Cambridge*
-* B.S. in Applied Mathematics, *ITAM*
+* B.S. in Applied Mathematics, *ITAM* -->
 <!-- * Exchange student at Université Paris-Dauphine -->
 
 

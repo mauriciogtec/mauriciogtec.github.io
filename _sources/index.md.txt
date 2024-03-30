@@ -18,16 +18,16 @@ More about me ℹ️
 :link: projects
 Projects I've worked on 🔧
 :::
-:::{grid-item-card}
+:::{grid-item-card}     
 :link: blog
 My blog 📝  
 ::: -->
 <!-- :::: -->
 
+![robot-detective](_static/robot-detective.jpeg)
+
 **About Me**. I completed my Ph.D. in Statistics at UT Austin, where I worked on reinforcement learning and computer vision for applications in spatial domains. During that time, I held internships at Meta AI (FAIR) and Intel AI and was a member of the UT Covid-19 Modeling Consortium and the UT Austin Villa Robot Soccer Team where I worked on vision systems for autonomous robots. Before my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Mathematics at the University of Cambridge.
 
-
-![robot-detective](_static/robot-detective.jpeg)
 
 #### News
 

@@ -51,7 +51,7 @@ My blog 📝
 
 #### CV
 
-Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), powered by LLMs and RAG. Have fun asking your own questions. You can also download an outdated pdf <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-01-16.
+Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), powered by LLMs and RAG. Have fun asking your own questions. You can also download an outdated pdf <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-03-30.
 
 <!-- #### Experience
 

@@ -3,9 +3,9 @@ html_theme.sidebar_secondary.remove: true
 ---
 # Mauricio Tec
 
-I am a research associate at Harvard University working on decision-making AI. In particular, my work focuses on reinforcement learning and deep learning methodology, often in combination with statistical modeling and causality tools. I'm also very interested in robotics and social impact applications for climate change adaptation and health.
+I am a research associate at Harvard University working on decision-making AI. In particular, my work focuses on reinforcement learning and deep learning methodology, often in combination with statistical modeling and causality tools. I'm also very interested in robotics and social impact applications.
 
-I am taking interns and co-advising research projects. My current topics of interest include foundation models and LLMs for reinforcement learning and planning and novel deep learning architectures for graph and topological domains motivated by geospatial and computer vision data. If you are interested in working with me, please reach out. 
+I am taking interns and co-advising research projects. My current topics of interest include foundation models and LLMs for reinforcement learning and planning and novel deep learning architectures for topological, graph, and visual domains. If you are interested in working with me, please reach out. 
 
 <!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->
 

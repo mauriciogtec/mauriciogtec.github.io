@@ -8,12 +8,12 @@ Hello! I am a postdoctoral research fellow at Harvard University, specializing i
 
 1. **Representations for counterfactual reasoning and planning**: I aim to develop representations that provide reliable guarantees for counterfactual reasoning, particularly in offline settings. This research intersects with causal inference, offline reinforcement learning, and world models. 
 
-2. **Representations in structured graph-like domains**: My work involves learning representations in structured domains such as graph-based and temporal data. In addition to graph neural networks, I have adopted the topological deep learning paradigm, which enables me to capture higher-order interactions in the data. 
+2. **Representations in structured graph-like domains**: My work involves learning representations in structured domains such as graph-based and temporal data. In addition to graph neural networks, I have adopted the topological deep learning paradigm, which allows for capturing higher-order interactions in the data. 
 
-3. **Self-supervised learning**: I am developing learning methods from unlabeled or partially labeled data across multiple modalities and tasks. My goal is to create foundation models that can be easily fine-tuned for counterfactual inference and sequential decision-making tasks, are robust to distributional shifts, and are adaptable to new features or variables.
+3. **Self-supervised learning**: I am developing learning methods from unlabeled or partially labeled data across multiple modalities and tasks. My goal is to create foundation models that can be easily fine-tuned for counterfactual inference and sequential decision-making tasks, are robust to distributional shifts, and are adaptable to new features or variables. I am particularly focused on working with tabular and graph-structured data for which the current image-based self-supervised learning methods are not directly applicable.
 
-4. **Common-sense and external knowledge**: I have been long-term fascinated by AI systems that can leverage external common-sense reasoning to overcome *tabula rasa* learning. This is now possible more than ever with the advent of LLMs and foundation models. I seek to combine LLMs and other foundation models with learning embeddings of features, allowing learning models to generalize their predictive and uncertainty quantification capacities across input and output features.
-   
+4. **Common-sense and external knowledge**: I have been fascinated by AI systems that can leverage external common-sense reasoning to overcome *tabula rasa* learning. This is now possible more than ever with the advent of LLMs and foundation models. I seek to combine LLMs and other foundation models with learning embeddings of features to improve the generalization of models to new tasks and domains.
+
 I am recognized as a principal investigator in federal grants by the National Science Foundation and the National Institutes of Health due to its implications on public health and climate change. 
 
 Our group is actively looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.

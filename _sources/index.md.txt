@@ -48,7 +48,7 @@ My blog 📝
 
 - **[2024-05-22]** 📃 New ArXiV paper: [E(n)-Equivariant Topological Neural Networks](https://arxiv.org/pdf/2405.15429). Check out our [blog post](https://clabat9.medium.com/3117f582d6bf).
 
-- **[2024-05-17]** 🔥 New paper: [Tresnet](https://arxiv.org/pdf/2312.00710.pdf) paper has been accepted to KDD 2024. See you in Barcelona!
+- **[2024-05-17]** 🔥 Our paper [Causal Estimation of Exposure Shifts with Neural Networks](https://arxiv.org/pdf/2312.00710.pdf) has been accepted to KDD 2024. See you in Barcelona!
 
 - **[2024-02-01]** 🔨 Our workshop *Training Agents with Foundation Models* in the Reinforcement Learning Conference (RLC) 2024 is to be held on August 9th, 2024. We will release the website and call for papers soon! Reach out to `tafm.rlc@gmail.com`.
 

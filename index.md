@@ -6,19 +6,23 @@ html_theme.sidebar_secondary.remove: true
 
 Hello! I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research interests focus on the following key areas:
 
-1. **Representations for counterfactual reasoning and planning**: I aim to develop representations that provide reliable guarantees for counterfactual reasoning, particularly in offline settings. This research intersects with causal inference, offline reinforcement learning, and world models. 
+1. **Representations for counterfactual reasoning and planning**: Developing representations that provide reliable guarantees for counterfactual reasoning, particularly in offline settings. This research intersects with causal inference, offline reinforcement learning, and world models.
 
-2. **Representations in structured graph-like domains**: My work involves learning representations in structured domains such as graph-based and temporal data. In addition to graph neural networks, I have adopted the topological deep learning paradigm, which allows for capturing higher-order interactions in the data. 
 
-3. **Self-supervised learning**: I am developing learning methods from unlabeled or partially labeled data across multiple modalities and tasks. My goal is to create foundation models that can be easily fine-tuned for counterfactual inference and sequential decision-making tasks, are robust to distributional shifts, and are adaptable to new features or variables. I am particularly focused on working with tabular and graph-structured data for which the current image-based self-supervised learning methods are not directly applicable.
+2. **Self-supervised learning**: Developing learning methods from unlabeled or partially labeled data across multiple modalities and tasks. The goal is to create foundation models that can be easily fine-tuned for counterfactual inference and sequential decision-making tasks, robust to distributional shifts, and adaptable to new features or datasets. 
 
-4. **Common-sense and external knowledge**: I have been fascinated by AI systems that can leverage external common-sense reasoning to overcome *tabula rasa* learning. This is now possible more than ever with the advent of LLMs and foundation models. I seek to combine LLMs and other foundation models with learning embeddings of features to improve the generalization of models to new tasks and domains.
+3. **Common-sense and external knowledge**: Fascinated by AI systems that can leverage external common-sense reasoning to overcome *tabula rasa* learning. With the advent of LLMs and foundation models, combining LLMs and other foundation models with learning embeddings of features to improve the generalization of models to new tasks and domains.
 
-I am recognized as a principal investigator in federal grants by the National Science Foundation and the National Institutes of Health due to its implications on public health and climate change. 
+904. **Representations in structured graph-like domains**: Learning representations in structured domains such as graph-based and temporal data. In addition to graph neural networks, I have adopted the topological deep learning paradigm, which allows for capturing higher-order interactions in the data.
+
+My work has been published in top-tier conferences such as NeurIPS, ICLR, and AAAI, and in scientific journals such as the Proceedings of the National Academy of Sciences. Supported by the National Science Foundation and the National Institutes of Health, this research has significant implications for public health, particularly in designing AI-driven interventions and policies for climate change adaptation and mitigation.
 
 Our group is actively looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.
 
-I earned my Ph.D. in Statistics from UT Austin, where I focused on statistical methods, reinforcement learning and computer vision for spatial domains. I held internships at Meta AI (FAIR) and Intel AI. I was a member of the UT Austin Villa Robot Soccer Team, where I developed vision systems for autonomous robots. Prior to my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Pure Mathematics at the University of Cambridge. Below is a photo of myself during the 2022 Robocup competition in Bangkok.
+I earned my Ph.D. in Statistics from the University of Texas at Austin, focusing on reinforcement learning, computer vision, and statistical applications. During my doctoral studies, I held internships at Meta AI (FAIR) and Intel AI. Additionally, Prior to my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Pure Mathematics at the University of Cambridge. 
+
+During my Ph.D., I was a member of the UT Austin Villa Robot Soccer Team, developing vision systems for autonomous robots. Below is a photo of myself during the 2022 Robocup competition in Bangkok.
+
 
 
 <!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->

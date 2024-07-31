@@ -59,7 +59,7 @@ My blog 📝
 
 - **[2024-02-01]** 🔨 Our workshop *Training Agents with Foundation Models* in the Reinforcement Learning Conference (RLC) 2024 is to be held on August 9th, 2024. We will release the website and call for papers soon! Reach out to `tafm.rlc@gmail.com`.
 
-- **[2024-02-01]** 📃 New manuscript: [Optimizing Heat Alert Issuance for Public Health in the United States with Reinforcement Learning](https://arxiv.org/abs/2312.14196). My first paper as senior author.
+- **[2024-02-01]** 📃 New manuscript: [Optimizing Heat Alert Issuance with Reinforcement Learning](https://arxiv.org/abs/2312.14196). My first paper as senior author.
 
 - **[2024-01-16]** 🔥 New paper: [SpaCE](https://arxiv.org/pdf/2312.00710.pdf) paper has been accepted to ICLR 2024. See you in Vienna!
 

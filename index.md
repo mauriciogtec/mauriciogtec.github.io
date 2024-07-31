@@ -4,7 +4,19 @@ html_theme.sidebar_secondary.remove: true
 
 # About me
 
-Hello! I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research interests focus on the following key areas:
+Hello! I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research focuses on developing representations that support counterfactual reasoning, generalize across datasets and tasks, and integrate external commonsense knowledge. This involves integrating advancements from reinforcement learning, foundation models, and statistical techniques. My work also includes representation learning for structured domains such as images, graphs, spatiotemporal data, and higher-order topological data. Additionally, I have collaborated on various AI applications for social impact, particularly in public health and climate change mitigation.
+
+
+I earned my Ph.D. in Statistics from the University of Texas at Austin, focusing on reinforcement learning, computer vision, and statistical applications. Prior to my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Pure Mathematics at the University of Cambridge. I have held internships at Meta AI (FAIR) and Intel AI. I was also a member of the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots. 
+
+Below is a photo of our preparation for a match at the 2022 Robocup competition in Bangkok:
+
+![robot-detective](_static/robot-detective.jpeg)
+
+
+### Research
+
+My research interests focus on the following key areas:
 
 1. **Representations for counterfactual reasoning and planning**: Developing representations that provide reliable guarantees for counterfactual reasoning, particularly in offline settings. This research intersects with causal inference, offline reinforcement learning, and world models.
 
@@ -17,15 +29,8 @@ Hello! I am a postdoctoral research fellow at Harvard University, specializing i
 
 My work has been published in top-tier conferences such as NeurIPS, ICLR, and AAAI, and in scientific journals such as the Proceedings of the National Academy of Sciences. Supported by the National Science Foundation and the National Institutes of Health, this research has significant implications for public health, particularly in designing AI-driven interventions and policies for climate change adaptation and mitigation.
 
-Our group is actively looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.
+  ⚠️ *Our group is looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.*
 
-I earned my Ph.D. in Statistics from the University of Texas at Austin, focusing on reinforcement learning, computer vision, and statistical applications. During my doctoral studies, I held internships at Meta AI (FAIR) and Intel AI. Additionally, Prior to my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Pure Mathematics at the University of Cambridge. 
-
-During my Ph.D., I was a member of the UT Austin Villa Robot Soccer Team, developing vision systems for autonomous robots. Below is a photo of myself during the 2022 Robocup competition in Bangkok.
-
-
-
-<!-- <img src="_static/robot-detective.jpeg" alt="robot-detective" width="700"/> -->
 
 <!-- ::::{grid}
 :::{grid-item-card}
@@ -42,11 +47,9 @@ My blog 📝
 ::: -->
 <!-- :::: -->
 
-![robot-detective](_static/robot-detective.jpeg)
 
 
-
-#### News
+### News
 
    - **[2024-06-15]** ✨ New grant as co-PI funded by the NSF and NIH for "Synergizing Topological Deep Learning and Spatio-Temporal Causal Inference." This methodological grant will enable new possibilities for (possibly multi-modal, multi-resolution) spatiotemporal data.
 

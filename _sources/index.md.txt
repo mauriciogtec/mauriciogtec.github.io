@@ -2,9 +2,9 @@
 html_theme.sidebar_secondary.remove: true
 ---
 
-# About me
+# Hello! 
 
-Hello! I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research focuses on developing representations that support counterfactual reasoning, generalize across datasets and tasks, and integrate external commonsense knowledge. This involves integrating advancements from reinforcement learning, foundation models, and statistical techniques. My work also includes representation learning for structured domains such as images, graphs, spatiotemporal data, and higher-order topological data. Additionally, I have collaborated on various AI applications for social impact, particularly in public health and climate change mitigation.
+I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research focuses on developing representations that support counterfactual reasoning, generalize across datasets and tasks, and integrate external commonsense knowledge. This involves integrating advancements from reinforcement learning, foundation models, and statistical techniques. My work also includes representation learning for structured domains such as images, graphs, spatiotemporal data, and higher-order topological data. Additionally, I have collaborated on various AI applications for social impact, particularly in public health and climate change mitigation.
 
 
 I earned my Ph.D. in Statistics from the University of Texas at Austin, focusing on reinforcement learning, computer vision, and statistical applications. Prior to my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Pure Mathematics at the University of Cambridge. I have held internships at Meta AI (FAIR) and Intel AI. I was also a member of the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots. 

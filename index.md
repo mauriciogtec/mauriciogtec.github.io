@@ -4,14 +4,21 @@ html_theme.sidebar_secondary.remove: true
 
 # Hello! 
 
-I am a postdoctoral researcher at Harvard University's [Computer Science department](https://crcs.seas.harvard.edu) and the [Harvard Data Science Initiative](https://datascience.harvard.edu), co-supervised by Milind Tambe and Francesca Dominici. My current focus in on training agents with foundation models using methods from reinforcement learning (RL), diffusion generative models,  and large language models (LLMs). On the applied side, I am interested in embodied and virtual agent systems and social impact applications, particularly for climate change and health. 
+I am a postdoctoral researcher at Harvard University's [Computer Science department](https://crcs.seas.harvard.edu) and the [Harvard Data Science Initiative](https://datascience.harvard.edu), co-supervised by Milind Tambe and Francesca Dominici. My current focus in on training agents with foundation models using methods from reinforcement learning (RL), diffusion generative models, and large language models (LLMs). On the applied side, I am interested in embodied and virtual agent systems and social impact applications, particularly for climate change and health. 
 
-My current projects focusing on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making scenarios, particularly in social impact applications and robotics. Check my [Google Scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) for more details about my previous work.
+## Research
+
+My current projects focus on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making scenarios, particularly in social impact applications and robotics. Check my [Google Scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) for more details about my previous work.
+
+
+## Bio
 
 I hold a BSc and Masters in Mathematics from ITAM and Cambridge University. I completed my PhD in the Statistics Department at UT Austin focusing on reinforcement learning and computer vision applications, where I was also a member of the [Learning Agents Research Group](https://www.cs.utexas.edu/~pstone/research.shtml]) at the Computer Science Department. During this time, I participated in the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots and competed at the [Robocup](https://www.robocup.org/events/upcoming_events). During the COVID-19 pandemic, I served as a core member of UT Austin's COVID-19 response team. Additionally, I held internships at Meta AI (FAIR) and Intel AI.
 
+
 ![robot-detective](_static/robot-detective.jpeg)
-2022 Robocup competition in Bangkok.
+2022 Robocup competition, Bangkok, Thailand
+
 
 <!-- 
 ### Research
@@ -75,9 +82,9 @@ My blog 📝
 
 - **[2022-08-15]** Started a postdoc at Harvard University, Department of Biostatistics. -->
 
-#### CV
+<!-- #### CV
 
-Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), powered by LLMs and RAG. Have fun asking your own questions. You can also download an outdated pdf <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-03-30.
+Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), powered by LLMs and RAG. Have fun asking your own questions. You can also download an outdated pdf <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-03-30. -->
 
 <!-- #### Experience
 
@@ -94,11 +101,13 @@ Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), 
 * B.S. in Applied Mathematics, *ITAM* -->
 <!-- * Exchange student at Université Paris-Dauphine -->
 
+<!-- 
+#### Hobbies
 
-#### My Family
+🚲 🎾 🐕
 
 <img src="_static/family.jpeg" alt="family" width="500"/>
-
+ -->
 
 
 ```{toctree}

@@ -4,16 +4,16 @@ html_theme.sidebar_secondary.remove: true
 
 # Hello! 
 
-I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research focuses on developing representations that support counterfactual reasoning, generalize across datasets and tasks, and integrate external commonsense knowledge. This involves integrating advancements from reinforcement learning, foundation models, and statistical techniques. My work also includes representation learning for structured domains such as images, graphs, spatiotemporal data, and higher-order topological data. Additionally, I have collaborated on various AI applications for social impact, particularly in public health and climate change mitigation.
+I am a postdoctoral researcher at Harvard University's [Computer Science department](https://crcs.seas.harvard.edu) and the [Harvard Data Science Initiative](https://datascience.harvard.edu), co-supervised by Milind Tambe and Francesca Dominici. My current focus in on training agents with foundation models using methods from reinforcement learning (RL), diffusion generative models,  and large language models (LLMs). On the applied side, I am interested in embodied and virtual agent systems and social impact applications, particularly for climate change and health. 
 
+My current projects focusing on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making scenarios, particularly in social impact applications and robotics. Check my [Google Scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) for more details about my previous work.
 
-I earned my Ph.D. in Statistics from the University of Texas at Austin, focusing on reinforcement learning, computer vision, and statistical applications. Prior to my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Pure Mathematics at the University of Cambridge. I have held internships at Meta AI (FAIR) and Intel AI. I was also a member of the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots. 
-
-Below is a photo of our preparation for a match at the 2022 Robocup competition in Bangkok:
+I hold a BSc and Masters in Mathematics from ITAM and Cambridge University. I completed my PhD in the Statistics Department at UT Austin focusing on reinforcement learning and computer vision applications, where I was also a member of the [Learning Agents Research Group](https://www.cs.utexas.edu/~pstone/research.shtml]) at the Computer Science Department. During this time, I participated in the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots and competed at the [Robocup](https://www.robocup.org/events/upcoming_events). During the COVID-19 pandemic, I served as a core member of UT Austin's COVID-19 response team. Additionally, I held internships at Meta AI (FAIR) and Intel AI.
 
 ![robot-detective](_static/robot-detective.jpeg)
+2022 Robocup competition in Bangkok.
 
-
+<!-- 
 ### Research
 
 My research interests focus on the following key areas:
@@ -29,7 +29,7 @@ My research interests focus on the following key areas:
 
 My work has been published in top-tier conferences such as NeurIPS, ICLR, and AAAI, and in scientific journals such as the Proceedings of the National Academy of Sciences. Supported by the National Science Foundation and the National Institutes of Health, this research has significant implications for public health, particularly in designing AI-driven interventions and policies for climate change adaptation and mitigation.
 
-  ⚠️ *Our group is looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.*
+  ⚠️ *Our group is looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.* -->
 
 
 <!-- ::::{grid}
@@ -47,7 +47,7 @@ My blog 📝
 ::: -->
 <!-- :::: -->
 
-
+<!-- 
 
 ### News
 
@@ -73,7 +73,7 @@ My blog 📝
 
 - **[2023-03-01]** 📃 New ArXiV paper [*Causal Estimation of Exposure Shifts with Neural networks*](https://arxiv.org/pdf/2302.02560.p  df).
 
-- **[2022-08-15]** Started a postdoc at Harvard University, Department of Biostatistics.
+- **[2022-08-15]** Started a postdoc at Harvard University, Department of Biostatistics. -->
 
 #### CV
 

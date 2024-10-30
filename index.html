@@ -11,12 +11,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="" />
 <meta property="og:site_name" content="Mauricio Tec's Personal Website" />
-<meta property="og:description" content="I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research focuses on developing representations that support counte..." />
+<meta property="og:description" content="I am a postdoctoral researcher at Harvard University’s Computer Science department and the Harvard Data Science Initiative, co-supervised by Milind Tambe and Francesca Dominici. My current focus in..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="/_images/social_previews/summary_index_a51d50e5.png" />
-<meta property="og:image:alt" content="I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research focuses on develo..." />
-<meta name="description" content="I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research focuses on developing representations that support counte..." />
+<meta property="og:image" content="/_images/social_previews/summary_index_6a7efe78.png" />
+<meta property="og:image:alt" content="I am a postdoctoral researcher at Harvard University’s Computer Science department and the Harvard Data Science Initiative, co-supervised by Milind Tambe and..." />
+<meta name="description" content="I am a postdoctoral researcher at Harvard University’s Computer Science department and the Harvard Data Science Initiative, co-supervised by Milind Tambe and Francesca Dominici. My current focus in..." />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>Hello! &#8212; Mauricio Tec&#39;s website</title>
@@ -27,32 +27,35 @@
     document.documentElement.dataset.mode = localStorage.getItem("mode") || "";
     document.documentElement.dataset.theme = localStorage.getItem("theme") || "";
   </script>
+  <!-- 
+    this give us a css class that will be invisible only if js is disabled 
+  -->
+  <noscript>
+    <style>
+      .pst-js-only { display: none !important; }
+
+    </style>
+  </noscript>
   
   <!-- Loaded before other Sphinx assets -->
-  <link href="_static/styles/theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/bootstrap.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-<link href="_static/styles/pydata-sphinx-theme.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-
-  
-  <link href="_static/vendor/fontawesome/6.5.2/css/all.min.css?digest=dfe6caa3a7d634c4db9b" rel="stylesheet" />
-  <link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-solid-900.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-brands-400.woff2" />
-<link rel="preload" as="font" type="font/woff2" crossorigin href="_static/vendor/fontawesome/6.5.2/webfonts/fa-regular-400.woff2" />
+  <link href="_static/styles/theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
+<link href="_static/styles/pydata-sphinx-theme.css?digest=26a4bc78f4c0ddb94549" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=a746c00c" />
     <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
     <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
     <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-examples.css?v=e236af4b" />
     <link rel="stylesheet" type="text/css" href="_static/custom.css?v=b93cd24b" />
-    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=87e54e7c" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
+  <!-- So that users can add custom icons -->
+  <script src="_static/scripts/fontawesome.js?digest=26a4bc78f4c0ddb94549"></script>
   <!-- Pre-loaded scripts that we'll load fully later -->
-  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b" />
-<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b" />
-  <script src="_static/vendor/fontawesome/6.5.2/js/all.min.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <link rel="preload" as="script" href="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549" />
+<link rel="preload" as="script" href="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549" />
 
     <script src="_static/documentation_options.js?v=187304be"></script>
-    <script src="_static/doctools.js?v=9a2dae69"></script>
+    <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
     <script src="_static/clipboard.min.js?v=a7894cd8"></script>
     <script src="_static/copybutton.js?v=f281be69"></script>
@@ -74,24 +77,21 @@
     <link rel="icon" href="_static/profile-color-circle-small.png"/>
     <link rel="author" title="About these documents" href="about/" />
     <link rel="index" title="Index" href="genindex/" />
-    <link rel="search" title="Search" href="search/" />
-
+    <link rel="search" title="Search" href="search/" /> 
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
+  <meta name="docsearch:version" content="" />
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
         integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
-
-
+ 
 <link
   rel="alternate"
   type="application/atom+xml"
   href="blog/atom.xml"
   title="Mauricio Tec"
 />
-
-
-
+  
   </head>
   
   
@@ -107,19 +107,8 @@
     <i class="fa-solid fa-arrow-up"></i>Back to top</button>
 
   
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-primary-sidebar-checkbox"/>
-  <label class="overlay overlay-primary" for="pst-primary-sidebar-checkbox"></label>
-  
-  <input type="checkbox"
-          class="sidebar-toggle"
-          id="pst-secondary-sidebar-checkbox"/>
-  <label class="overlay overlay-secondary" for="pst-secondary-sidebar-checkbox"></label>
-  
-  <div class="search-button__wrapper">
-    <div class="search-button__overlay"></div>
-    <div class="search-button__search-container">
+  <dialog id="pst-search-dialog">
+    
 <form class="bd-search d-flex align-items-center"
       action="search/"
       method="get">
@@ -127,7 +116,6 @@
   <input type="search"
          class="form-control"
          name="q"
-         id="search-input"
          placeholder="Search this site..."
          aria-label="Search this site..."
          autocomplete="off"
@@ -135,8 +123,8 @@
          autocapitalize="off"
          spellcheck="false"/>
   <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd>K</kbd></span>
-</form></div>
-  </div>
+</form>
+  </dialog>
 
   <div class="pst-async-banner-revealer d-none">
   <aside id="bd-header-version-warning" class="d-none d-print-none" aria-label="Version warning"></aside>
@@ -190,29 +178,21 @@
         <div class="navbar-item navbar-persistent--container">
           
 
- <script>
- document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
         </div>
       
       
         <div class="navbar-item">
 
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
-  </button>
-`);
-</script></div>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
       
         <div class="navbar-item"><ul class="navbar-icon-links"
     aria-label="Icon Links">
@@ -273,15 +253,11 @@ document.write(`
   
     <div class="navbar-persistent--mobile">
 
- <script>
- document.write(`
-   <button class="btn search-button-field search-button__button" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="fa-solid fa-magnifying-glass"></i>
-    <span class="search-button__default-text">Search</span>
-    <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-   </button>
- `);
- </script>
+<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
+ <i class="fa-solid fa-magnifying-glass"></i>
+ <span class="search-button__default-text">Search</span>
+ <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
+</button>
     </div>
   
 
@@ -298,7 +274,8 @@ document.write(`
       
         
       
-      <div class="bd-sidebar-primary bd-sidebar">
+      <dialog id="pst-primary-sidebar-modal"></dialog>
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
         
 
   
@@ -325,15 +302,11 @@ document.write(`
         
           <div class="navbar-item">
 
-<script>
-document.write(`
-  <button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button" title="light/dark" aria-label="light/dark" data-bs-placement="bottom" data-bs-toggle="tooltip">
-    <i class="theme-switch fa-solid fa-sun fa-lg" data-mode="light"></i>
-    <i class="theme-switch fa-solid fa-moon fa-lg" data-mode="dark"></i>
-    <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"></i>
-  </button>
-`);
-</script></div>
+<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
+  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
+  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
+  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
+</button></div>
         
           <div class="navbar-item"><ul class="navbar-icon-links"
     aria-label="Icon Links">
@@ -407,7 +380,7 @@ document.write(`
     </div> 
     <!-- for the next use monospace font -->
     <div class="email">
-        <b>Email:</b> mauriciogtec-at-hsph.harvard.edu
+        <b>Email:</b> mauriciogtec-at-g.harvard.edu
     </div>
     <br>
 </div>
@@ -432,10 +405,10 @@ document.write(`
         { id: 2, image: "../_static/icon-twitter-blue.svg", link: "https://twitter.com/mauriciogtec", label: "Twitter" },
         { id: 3, image: "../_static/icon-scholar-blue.svg", link: "https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en", label: "Google Scholar" },
         { id: 4, image: "../_static/icon-linkedin-blue.svg", link: "https://www.linkedin.com/in/mauriciogtec/", label: "Linkedin" },
-        { id: 5, image: "../_static/icon-cv-blue.svg", link: "../_static/cv.pdf", label: "CV" },
-        { id: 6, image: "../_static/icon-robot-color.svg", link: "https://mauriciogtec-live-cv.streamlit.app", label: "Live CV"}
+        // { id: 5, image: "../_static/icon-cv-blue.svg", link: "../_static/cv.pdf", label: "CV" },
+        { id: 5, image: "../_static/icon-robot-color.svg", link: "https://mauriciogtec-live-cv.streamlit.app", label: "Live CV"}
     ];
-    var links_data = [{ source: 1, target: 2 }, { source: 2, target: 3 }, { source: 3, target: 4 }, { source: 4, target: 5 }, { source: 5, target: 6 }, { source: 6, target: 1}];
+    var links_data = [{ source: 1, target: 2 }, { source: 2, target: 3 }, { source: 3, target: 4 }, { source: 4, target: 5 }, { source: 5, target: 1 }];
     var simulation = d3.forceSimulation(nodes_data)
         .force("link", d3.forceLink().id(d => d.id))
         .force("charge", d3.forceManyBody().strength(-800))
@@ -502,24 +475,30 @@ document.write(`
                 
 <div id="searchbox"></div>
                 <article class="bd-article">
-                  
-<section id="hello">
+                   <section id="hello">
 <h1>Hello!<a class="headerlink" href="#hello" title="Link to this heading">#</a></h1>
-<p>I am a postdoctoral research fellow at Harvard University, specializing in representation learning methods for decision-making. My research focuses on developing representations that support counterfactual reasoning, generalize across datasets and tasks, and integrate external commonsense knowledge. This involves integrating advancements from reinforcement learning, foundation models, and statistical techniques. My work also includes representation learning for structured domains such as images, graphs, spatiotemporal data, and higher-order topological data. Additionally, I have collaborated on various AI applications for social impact, particularly in public health and climate change mitigation.</p>
-<p>I earned my Ph.D. in Statistics from the University of Texas at Austin, focusing on reinforcement learning, computer vision, and statistical applications. Prior to my Ph.D., I completed a B.S. in Applied Mathematics at ITAM and an M.S. in Pure Mathematics at the University of Cambridge. I have held internships at Meta AI (FAIR) and Intel AI. I was also a member of the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots.</p>
-<p>Below is a photo of our preparation for a match at the 2022 Robocup competition in Bangkok:</p>
-<p><img alt="robot-detective" src="_images/robot-detective.jpeg" /></p>
-<section id="research">
-<h2>Research<a class="headerlink" href="#research" title="Link to this heading">#</a></h2>
-<p>My research interests focus on the following key areas:</p>
-<ol class="arabic simple">
-<li><p><strong>Representations for counterfactual reasoning and planning</strong>: Developing representations that provide reliable guarantees for counterfactual reasoning, particularly in offline settings. This research intersects with causal inference, offline reinforcement learning, and world models.</p></li>
-<li><p><strong>Self-supervised learning</strong>: Developing learning methods from unlabeled or partially labeled data across multiple modalities and tasks. The goal is to create foundation models that can be easily fine-tuned for counterfactual inference and sequential decision-making tasks, robust to distributional shifts, and adaptable to new features or datasets.</p></li>
-<li><p><strong>Common-sense and external knowledge</strong>: Fascinated by AI systems that can leverage external common-sense reasoning to overcome <em>tabula rasa</em> learning. With the advent of LLMs and foundation models, combining LLMs and other foundation models with learning embeddings of features to improve the generalization of models to new tasks and domains.</p></li>
-<li><p><strong>Representations in structured graph-like domains</strong>: Learning representations in structured domains such as graph-based and temporal data. In addition to graph neural networks, I have adopted the topological deep learning paradigm, which allows for capturing higher-order interactions in the data.</p></li>
-</ol>
-<p>My work has been published in top-tier conferences such as NeurIPS, ICLR, and AAAI, and in scientific journals such as the Proceedings of the National Academy of Sciences. Supported by the National Science Foundation and the National Institutes of Health, this research has significant implications for public health, particularly in designing AI-driven interventions and policies for climate change adaptation and mitigation.</p>
-<p>⚠️ <em>Our group is looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.</em></p>
+<p>I am a postdoctoral researcher at Harvard University’s <a class="reference external" href="https://crcs.seas.harvard.edu">Computer Science department</a> and the <a class="reference external" href="https://datascience.harvard.edu">Harvard Data Science Initiative</a>, co-supervised by Milind Tambe and Francesca Dominici. My current focus in on training agents with foundation models using methods from reinforcement learning (RL), diffusion generative models,  and large language models (LLMs). On the applied side, I am interested in embodied and virtual agent systems and social impact applications, particularly for climate change and health.</p>
+<p>My current projects focusing on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making scenarios, particularly in social impact applications and robotics. Check my <a class="reference external" href="https://scholar.google.com/citations?user=AF_rzg8AAAAJ&amp;amp;hl=en">Google Scholar</a> for more details about my previous work.</p>
+<p>I hold a BSc and Masters in Mathematics from ITAM and Cambridge University. I completed my PhD in the Statistics Department at UT Austin focusing on reinforcement learning and computer vision applications, where I was also a member of the <a class="reference external" href="https://www.cs.utexas.edu/~pstone/research.shtml%5D">Learning Agents Research Group</a> at the Computer Science Department. During this time, I participated in the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots and competed at the <a class="reference external" href="https://www.robocup.org/events/upcoming_events">Robocup</a>. During the COVID-19 pandemic, I served as a core member of UT Austin’s COVID-19 response team. Additionally, I held internships at Meta AI (FAIR) and Intel AI.</p>
+<p><img alt="robot-detective" src="_images/robot-detective.jpeg" />
+2022 Robocup competition in Bangkok.</p>
+<!-- 
+### Research
+
+My research interests focus on the following key areas:
+
+1. **Representations for counterfactual reasoning and planning**: Developing representations that provide reliable guarantees for counterfactual reasoning, particularly in offline settings. This research intersects with causal inference, offline reinforcement learning, and world models.
+
+
+2. **Self-supervised learning**: Developing learning methods from unlabeled or partially labeled data across multiple modalities and tasks. The goal is to create foundation models that can be easily fine-tuned for counterfactual inference and sequential decision-making tasks, robust to distributional shifts, and adaptable to new features or datasets. 
+
+3. **Common-sense and external knowledge**: Fascinated by AI systems that can leverage external common-sense reasoning to overcome *tabula rasa* learning. With the advent of LLMs and foundation models, combining LLMs and other foundation models with learning embeddings of features to improve the generalization of models to new tasks and domains.
+
+904. **Representations in structured graph-like domains**: Learning representations in structured domains such as graph-based and temporal data. In addition to graph neural networks, I have adopted the topological deep learning paradigm, which allows for capturing higher-order interactions in the data.
+
+My work has been published in top-tier conferences such as NeurIPS, ICLR, and AAAI, and in scientific journals such as the Proceedings of the National Academy of Sciences. Supported by the National Science Foundation and the National Institutes of Health, this research has significant implications for public health, particularly in designing AI-driven interventions and policies for climate change adaptation and mitigation.
+
+  ⚠️ *Our group is looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.* -->
 <!-- ::::{grid}
 :::{grid-item-card}
 :link: about
@@ -534,25 +513,35 @@ Projects I've worked on 🔧
 My blog 📝  
 ::: -->
 <!-- :::: -->
-</section>
-<section id="news">
-<h2>News<a class="headerlink" href="#news" title="Link to this heading">#</a></h2>
-<ul class="simple">
-<li><p><strong>[2024-06-15]</strong> ✨ New grant as co-PI funded by the NSF and NIH for “Synergizing Topological Deep Learning and Spatio-Temporal Causal Inference.” This methodological grant will enable new possibilities for (possibly multi-modal, multi-resolution) spatiotemporal data.</p></li>
-<li><p><strong>[2024-05-22]</strong> 📃 New ArXiV paper: <a class="reference external" href="https://arxiv.org/pdf/2405.15429">E(n)-Equivariant Topological Neural Networks</a>. Check out our <a class="reference external" href="https://clabat9.medium.com/3117f582d6bf">blog post</a>.</p></li>
-<li><p><strong>[2024-05-17]</strong> 🔥 Our paper <a class="reference external" href="https://arxiv.org/pdf/2312.00710.pdf">Causal Estimation of Exposure Shifts with Neural Networks</a> has been accepted to KDD 2024. See you in Barcelona!</p></li>
-<li><p><strong>[2024-02-01]</strong> 🔨 Our workshop <em>Training Agents with Foundation Models</em> in the Reinforcement Learning Conference (RLC) 2024 is to be held on August 9th, 2024. We will release the website and call for papers soon! Reach out to <code class="docutils literal notranslate"><span class="pre">tafm.rlc&#64;gmail.com</span></code>.</p></li>
-<li><p><strong>[2024-02-01]</strong> 📃 New manuscript: <a class="reference external" href="https://arxiv.org/abs/2312.14196">Optimizing Heat Alert Issuance with Reinforcement Learning</a>. My first paper as senior author.</p></li>
-<li><p><strong>[2024-01-16]</strong> 🔥 New paper: <a class="reference external" href="https://arxiv.org/pdf/2312.00710.pdf">SpaCE</a> paper has been accepted to ICLR 2024. See you in Vienna!</p></li>
-<li><p><strong>[2024-01-15]</strong> 🤖 Created a <a class="reference external" href="https://mauriciogtec-live-cv.streamlit.app">LIVE CV</a>, powered by retrieval augmented generation. Have fun asking your own questions about my research and work experience.</p></li>
-<li><p><strong>[2023-12-10]</strong> Started this new website based on <a class="reference external" href="https://chrisholdgraf.com/blog/2020/sphinx-blogging/">Chris Holdgraf’s new blog template</a>.</p></li>
-<li><p><strong>[2023-09-01]</strong> Promoted to Research Associate at Harvard University. I will continue my research as usual but take on more projects in a senior role and propose grant applications.</p></li>
-<li><p><strong>[2023-05-15]</strong> ✨ New grant as Co-PI awarded by the <a class="reference external" href="https://www.hsph.harvard.edu/niehs/">Harvard Chan-NIEHS</a> to develop new computer vision architectures that are robust for prediction under covariate shift (with applications to projecting climate change’s health impacts).</p></li>
-<li><p><strong>[2023-03-01]</strong> 📃 New ArXiV paper [<em>Causal Estimation of Exposure Shifts with Neural networks</em>](https://arxiv.org/pdf/2302.02560.p  df).</p></li>
-<li><p><strong>[2022-08-15]</strong> Started a postdoc at Harvard University, Department of Biostatistics.</p></li>
-</ul>
+<!-- 
+
+### News
+
+   - **[2024-06-15]** ✨ New grant as co-PI funded by the NSF and NIH for "Synergizing Topological Deep Learning and Spatio-Temporal Causal Inference." This methodological grant will enable new possibilities for (possibly multi-modal, multi-resolution) spatiotemporal data.
+
+- **[2024-05-22]** 📃 New ArXiV paper: [E(n)-Equivariant Topological Neural Networks](https://arxiv.org/pdf/2405.15429). Check out our [blog post](https://clabat9.medium.com/3117f582d6bf).
+
+- **[2024-05-17]** 🔥 Our paper [Causal Estimation of Exposure Shifts with Neural Networks](https://arxiv.org/pdf/2312.00710.pdf) has been accepted to KDD 2024. See you in Barcelona!
+
+- **[2024-02-01]** 🔨 Our workshop *Training Agents with Foundation Models* in the Reinforcement Learning Conference (RLC) 2024 is to be held on August 9th, 2024. We will release the website and call for papers soon! Reach out to `tafm.rlc@gmail.com`.
+
+- **[2024-02-01]** 📃 New manuscript: [Optimizing Heat Alert Issuance with Reinforcement Learning](https://arxiv.org/abs/2312.14196). My first paper as senior author.
+
+- **[2024-01-16]** 🔥 New paper: [SpaCE](https://arxiv.org/pdf/2312.00710.pdf) paper has been accepted to ICLR 2024. See you in Vienna!
+
+- **[2024-01-15]** 🤖 Created a [LIVE CV](https://mauriciogtec-live-cv.streamlit.app), powered by retrieval augmented generation. Have fun asking your own questions about my research and work experience.
+
+- **[2023-12-10]** Started this new website based on [Chris Holdgraf's new blog template](https://chrisholdgraf.com/blog/2020/sphinx-blogging/).
+
+- **[2023-09-01]** Promoted to Research Associate at Harvard University. I will continue my research as usual but take on more projects in a senior role and propose grant applications.
+  
+- **[2023-05-15]** ✨ New grant as Co-PI awarded by the [Harvard Chan-NIEHS](https://www.hsph.harvard.edu/niehs/) to develop new computer vision architectures that are robust for prediction under covariate shift (with applications to projecting climate change's health impacts).
+
+- **[2023-03-01]** 📃 New ArXiV paper [*Causal Estimation of Exposure Shifts with Neural networks*](https://arxiv.org/pdf/2302.02560.p  df).
+
+- **[2022-08-15]** Started a postdoc at Harvard University, Department of Biostatistics. -->
 <section id="cv">
-<h3>CV<a class="headerlink" href="#cv" title="Link to this heading">#</a></h3>
+<h2>CV<a class="headerlink" href="#cv" title="Link to this heading">#</a></h2>
 <p>Try my <a class="reference external" href="https://mauriciogtec-live-cv.streamlit.app">🤖 Live CV Chatbot here</a>, powered by LLMs and RAG. Have fun asking your own questions. You can also download an outdated pdf <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. <em>Last updated:</em> 2024-03-30.</p>
 <!-- #### Experience
 
@@ -569,17 +558,16 @@ My blog 📝
 <!-- * Exchange student at Université Paris-Dauphine -->
 </section>
 <section id="my-family">
-<h3>My Family<a class="headerlink" href="#my-family" title="Link to this heading">#</a></h3>
-<a class="reference internal image-reference" href="_images/family.jpeg"><img alt="family" src="_images/family.jpeg" style="width: 500px;" /></a>
+<h2>My Family<a class="headerlink" href="#my-family" title="Link to this heading">#</a></h2>
+<a class="reference internal image-reference" href="_images/family.jpeg"><img alt="family" src="_images/family.jpeg" style="width: 500px;" />
+</a>
 <div class="toctree-wrapper compound">
 </div>
 </section>
 </section>
-</section>
 
 <div class="section ablog__blog_comments">
-  
-  
+   
 </div>
 
                 </article>
@@ -624,8 +612,8 @@ My blog 📝
   </div>
   
   <!-- Scripts loaded after <body> so the DOM is not blocked -->
-  <script src="_static/scripts/bootstrap.js?digest=dfe6caa3a7d634c4db9b"></script>
-<script src="_static/scripts/pydata-sphinx-theme.js?digest=dfe6caa3a7d634c4db9b"></script>
+  <script defer src="_static/scripts/bootstrap.js?digest=26a4bc78f4c0ddb94549"></script>
+<script defer src="_static/scripts/pydata-sphinx-theme.js?digest=26a4bc78f4c0ddb94549"></script>
 
   <footer class="bd-footer">
 <div class="bd-footer__inner bd-page-width">
@@ -645,7 +633,7 @@ My blog 📝
         <div class="footer-item">
 
   <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 7.4.7.
+    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
     <br/>
   </p>
 </div>
@@ -658,7 +646,7 @@ My blog 📝
       
         <div class="footer-item">
 <p class="theme-version">
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.15.4.
+  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.0.
 </p></div>
       
     </div>

@@ -13,7 +13,7 @@ My current projects focus on three directions: first, leveraging LLMs for reinfo
 
 ## Bio
 
-I hold a BSc and Masters in Mathematics from ITAM and Cambridge University. I completed my PhD in the Statistics Department at UT Austin focusing on reinforcement learning and computer vision applications, where I was also a member of the [Learning Agents Research Group](https://www.cs.utexas.edu/~pstone/research.shtml]) at the Computer Science Department. During this time, I participated in the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots and competed at the [Robocup](https://www.robocup.org/events/upcoming_events). During the COVID-19 pandemic, I served as a core member of UT Austin's COVID-19 response team. Additionally, I held internships at Meta AI (FAIR) and Intel AI.
+I hold a BSc and Masters in Mathematics from ITAM and The University of Cambridge. I completed my PhD in the Statistics Department at UT Austin focusing on reinforcement learning and computer vision applications, where I was also a member of the [Learning Agents Research Group](https://www.cs.utexas.edu/~pstone/research.shtml]) at the Computer Science Department. During this time, I participated in the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots and competed at the [Robocup](https://www.robocup.org/events/upcoming_events). During the COVID-19 pandemic, I served as a core member of UT Austin's COVID-19 response team. Additionally, I held internships at Meta AI (FAIR) and Intel AI.
 
 
 ![robot-detective](_static/robot-detective.jpeg)

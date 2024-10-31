@@ -4,7 +4,7 @@ html_theme.sidebar_secondary.remove: true
 
 # Hello! 
 
-I am a postdoctoral researcher at Harvard University's [Computer Science department](https://crcs.seas.harvard.edu) and the [Harvard Data Science Initiative](https://datascience.harvard.edu), co-supervised by Milind Tambe and Francesca Dominici. My current focus in on training agents with foundation models using methods from reinforcement learning (RL), diffusion generative models, and large language models (LLMs). On the applied side, I am interested in embodied and virtual agent systems and social impact applications, particularly for climate change and health. 
+I am a postdoctoral researcher at Harvard University's [Computer Science department](https://crcs.seas.harvard.edu) and the [Harvard Data Science Initiative](https://datascience.harvard.edu), co-supervised by Milind Tambe and Francesca Dominici. My current focus in on training agents with foundation models using methods from reinforcement learning (RL), diffusion generative models, and large language models (LLMs). On the applied side, I am interested in autonomous agent systems and social impact applications. 
 
 ## Research
 

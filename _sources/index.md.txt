@@ -8,7 +8,7 @@ I am a postdoctoral researcher at Harvard University's [Computer Science departm
 
 ## Research
 
-My current projects focus on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making scenarios, particularly in social impact applications and robotics. Check my [Google Scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) for more details about my previous work.
+My current projects focus on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making tasks. Check my [Google Scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) for more details about my previous work.
 
 
 ## Bio

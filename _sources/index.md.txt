@@ -4,16 +4,26 @@ html_theme.sidebar_secondary.remove: true
 
 # Hello! 
 
-I am a postdoctoral researcher at Harvard University's [Computer Science department](https://crcs.seas.harvard.edu) and the [Harvard Data Science Initiative](https://datascience.harvard.edu), co-supervised by Milind Tambe and Francesca Dominici. My current focus is on training agents with foundation models using methods from reinforcement learning (RL), diffusion generative models, and large language models (LLMs). On the applied side, I am interested in autonomous agent systems and social impact applications. 
+I am a Research Scientist at Harvard University, co-supervised by Milind Tambe and Francesca Dominici. My research focuses on reinforcement learning (RL), large language models (LLMs), and diffusion generative models with real-world applications. Recent projects include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion language models, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. Much of my current work has some application in AI for social good, particularly in public health. However, I aim to develop methods that are also widely applicable in industrial applications.
 
+
+## About Me
+
+I am an applied scientist with a strong interdisciplinary background spanning computer science, statistics, and mathematics and a passion for scalable and good-quality code. My work has been published in top-tier computer science conferences and scientific journals. I hold a Ph.D. from UT Austin, where I conducted research in RL, machine learning, and robotics, developed critical statistical models that UT Austin used for Covid-19 policy recommendations to the city of Austin, and collaborated in numerous cross-disciplinary projects.
+
+Prior to my Ph.D., I worked as a data scientist in industry, where I developed expertise and passion for building and deploying AI systems for real-world applications.
+
+Looking forward, I am excited to pursue new opportunities in agent-based AI, autonomous systems, and the intersection of AI and robotics. I welcome discussions about potential collaborations, research opportunities, and career prospects in these domains.
+
+<!-- 
 ## Research
 
-My current projects focus on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making tasks. Check my [Google Scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) for more details about my previous work.
+My current projects focus on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making tasks. Check my [Google Scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) for more details about my previous work. -->
 
 
-## Bio
+<!-- ## Bio
 
-I hold a BSc and Masters in Mathematics from ITAM and The University of Cambridge. I completed my PhD in Statistics at UT Austin focusing on reinforcement learning and computer vision applications, where I was also a member of the [Learning Agents Research Group](https://www.cs.utexas.edu/~pstone/research.shtml]) at the Computer Science Department. During this time, I participated in the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots and competed at the [Robocup](https://www.robocup.org/events/upcoming_events). Additionally, I held internships at Meta AI (FAIR) and Intel AI, and served as a core member of UT Austin's Covid-19 response team during the pandemic.
+I hold a BSc and Masters in Mathematics from ITAM and The University of Cambridge. I completed my PhD in Machine Learning and Statistics at UT Austin focusing on reinforcement learning and computer vision applications, where I was also a member of the [Learning Agents Research Group](https://www.cs.utexas.edu/~pstone/research.shtml]) at the Computer Science Department. During this time, I participated in the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots and competed at the [Robocup](https://www.robocup.org/events/upcoming_events). Additionally, I held internships at Meta AI (FAIR) and Intel AI, and was as a core member of UT Austin's Covid-19 response team during the pandemic. -->
 
 
 ![robot-detective](_static/robot-detective.jpeg)

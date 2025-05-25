@@ -6,7 +6,7 @@ html_theme.sidebar_secondary.remove: true
 
 I am an applied research scientist with a strong interdisciplinary background spanning computer science, statistics, and mathematics. I currently work on reinforcement learning (RL), LLMs, and diffusion generative models at the Harvard Computer Science Department and the Harvard Data Science Initiative.
 
-**My research interests include agentic AI, RL, autonomous systems, LLMs, generative AI, and robotics. I am passionate about building AI systems that can be deployed in real-world settings. I welcome discussions about collaborations and new opportunities in these areas.**
+**I am passionate about building AI systems that can be deployed in real-world settings. I welcome discussions about collaborations and new opportunities in these areas.**
 
 Recent projects I have worked on include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion LLMs, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. My work has been published in top-tier computer science conferences and scientific journals.
 

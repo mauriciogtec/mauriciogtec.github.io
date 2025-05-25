@@ -4,7 +4,7 @@ html_theme.sidebar_secondary.remove: true
 
 # Hello! 
 
-I am a Research Scientist at Harvard University, co-supervised by Milind Tambe and Francesca Dominici. My research focuses on reinforcement learning (RL), large language models (LLMs), and diffusion generative models with real-world applications. Recent projects include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion language models, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. Much of my current work has some application in AI for social good, particularly in public health. However, I aim to develop methods that are also widely applicable in industrial applications.
+I am a Research Scientist at Harvard University, co-supervised by Milind Tambe and Francesca Dominici. My current research focuses on reinforcement learning (RL), LLMs, and diffusion generative models with real-world applications. Recent projects include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion language models, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. Much of my current work has some application in AI for social good, particularly in public health. However, I aim to develop methods that are also widely applicable in industrial applications.
 
 
 ## About Me

@@ -2,14 +2,17 @@
 html_theme.sidebar_secondary.remove: true
 ---
 
-**Hello!** I am a Research Scientist at Harvard University, co-supervised by Milind Tambe and Francesca Dominici. My current research focuses on reinforcement learning (RL), LLMs, and diffusion generative models with real-world applications. Recent projects include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion LLMs, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. Much of my current work has some application in AI for social good, particularly in public health. However, I aim to develop methods that are also widely applicable in industrial applications.
+## Hello!
 
+I am a Research Scientist at Harvard University, co-supervised by Milind Tambe and Francesca Dominici. My current research focuses on reinforcement learning (RL), LLMs, and diffusion generative models with real-world applications. Recent projects include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion LLMs, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. Much of my current work has some application in AI for social good, particularly in public health. However, I aim to develop methods that are also widely applicable in industrial applications.
 
-**About Me**. I am an applied scientist with a passion for scalable quality code and a strong interdisciplinary background spanning computer science, statistics, and mathematics. My work has been published in top-tier computer science conferences and scientific journals. I hold a Ph.D. from UT Austin, where I conducted research in RL, machine learning, and robotics, and collaborated in numerous cross-disciplinary projects.
-
-Prior to my Ph.D., I worked as a data scientist in industry, where I developed expertise and passion for building and deploying AI systems for real-world applications.
 
 ***I am excited to pursue new opportunities in agentic AI, RL, autonomous systems, LLMs, GenAI, and robotics. Feel free to reach out with discussions about potential collaborations, research opportunities, and career prospects in these domains.***
+
+
+## Bio
+
+I am an applied scientist with a passion for scalable quality code and a strong interdisciplinary background spanning computer science, statistics, and mathematics. My work has been published in top-tier computer science conferences and scientific journals. I hold a Ph.D. from UT Austin, where I conducted research in RL, machine learning, and robotics, and collaborated in numerous cross-disciplinary projects. Prior to my Ph.D., I worked as a data scientist in industry, where I developed expertise and passion for building and deploying AI systems for real-world applications.
 
 <!-- 
 ## Research

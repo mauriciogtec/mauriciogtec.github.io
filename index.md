@@ -13,7 +13,7 @@ I am an applied scientist with a strong interdisciplinary background spanning co
 
 Prior to my Ph.D., I worked as a data scientist in industry, where I developed expertise and passion for building and deploying AI systems for real-world applications.
 
-Looking forward, I am excited to pursue new opportunities in agent-based AI, autonomous systems, and the intersection of AI and robotics. I welcome discussions about potential collaborations, research opportunities, and career prospects in these domains.
+***I am excited to pursue new opportunities in agentic AI, RL, autonomous systems, LLMs, GenAI, and robotics. Please feel free to reach out with potential collaborations and career prospects in these domains.***
 
 <!-- 
 ## Research

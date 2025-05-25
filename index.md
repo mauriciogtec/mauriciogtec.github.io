@@ -16,7 +16,7 @@ My journey in AI began as a data scientist in industry prior to my Ph.D., where 
 
 This practical foundation led me to pursue a Ph.D. at UT Austin to work on RL, machine learning, and robotics, building on my mathematics background (BSc from ITAM, master's from Cambridge). Key projects included developing an efficient real-time deep-learning vision system for autonomous soccer robots that competed in the RoboCup competition, and creating a new algorithm for goal-conditioned RL. I also developed statistical models used by UT Austin to issue COVID-19 response recommendations to government officials in Austin, Texas. I further expanded my research experience through internships at Meta AI (FAIR) and Intel AI, working on RL and computer vision, alongside numerous collaborations with experts across diverse fields.
 
-The thread connecting all my work is a commitment to building AI systems that facilitate optimal decision-making in real-world applications. Ultimately, I aim to develop autonomous systems that can operate seamlessly in both digital and physical worlds.
+The thread connecting all my work is a commitment to building AI systems that facilitate optimal decision-making in real-world applications. Ultimately, I aim to develop data-driven systems that can operate autonomously and smartly in both digital and physical worlds.
 
 <!-- 
 ## Research

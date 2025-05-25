@@ -2,17 +2,21 @@
 html_theme.sidebar_secondary.remove: true
 ---
 
-## Hello!
+# About
 
-I am a research scientist at Harvard University, currently working on reinforcement learning (RL), LLMs, and diffusion generative models at the computer science department and Harvard Data Science Initiative. Recent projects include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion LLMs, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. Many of these works are driven by real-world applications.
+I am an applied research scientist with a strong interdisciplinary background spanning computer science, statistics, and mathematics. I currently work on reinforcement learning (RL), LLMs, and diffusion generative models at the Harvard Computer Science Department and the Harvard Data Science Initiative.
 
+**My research interests include agentic AI, RL, autonomous systems, LLMs, generative AI, and robotics. I am passionate about building AI systems that can be deployed in real-world settings. I welcome discussions about collaborations and new opportunities in these areas.**
 
-***I am excited to pursue new opportunities in agentic AI, RL, autonomous systems, LLMs, GenAI, and robotics. Feel free to reach out with discussions about potential collaborations, research opportunities, and career prospects in these domains.***
+Recent projects I have worked on include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion LLMs, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. My work has been published in top-tier computer science conferences and scientific journals.
 
+## Background
 
-## Bio
+My journey in AI began as a data scientist in industry prior to my Ph.D., where I learned the importance of building robust, deployable systems. One of my favorite projects was developing a sequential decision-making system for automated portfolio optimization, which was deployed in production at a Mexican fund management company. This system integrated machine learning, optimization, and expert views via Bayesian inference.
 
-I am an applied scientist with a passion for scalable quality code and a strong interdisciplinary background spanning computer science, statistics, and mathematics. My work has been published in top-tier computer science conferences and scientific journals. I hold a Ph.D. from UT Austin, where I conducted research in RL, machine learning, and robotics, and collaborated in numerous cross-disciplinary projects. Prior to my Ph.D., I worked as a data scientist in industry, where I developed expertise and passion for building and deploying AI systems for real-world applications.
+This practical foundation led me to pursue a Ph.D. at UT Austin to work on RL, machine learning, and robotics, building on my mathematics background (BSc from ITAM, master's from Cambridge). Key projects included developing an efficient real-time deep-learning vision system for autonomous soccer robots that competed in the RoboCup competition, and creating a new algorithm for goal-conditioned RL. I also developed statistical models used in production to issue COVID-19 response recommendations to government officials in Austin, Texas. I further expanded my research experience through internships at Meta AI (FAIR) and Intel AI, working on RL and computer vision, alongside numerous collaborations with experts across diverse fields.
+
+The thread connecting all my work is a commitment to building AI systems that facilitate optimal decision-making in real-world applications. Ultimately, I aim to develop autonomous systems that can operate seamlessly in both digital and physical worlds.
 
 <!-- 
 ## Research

@@ -12,7 +12,7 @@ Recent projects I have worked on include using RL to enhance LLM agent performan
 
 ## Background
 
-My journey in AI began as a data scientist in industry prior to my Ph.D., where I developed a passion for building robust, scalable, deployable systems. One of my favorite projects was developing a sequential decision-making system for automated portfolio optimization, which was deployed in production at a Mexican fund management company. This system integrated machine learning, optimization, and expert views via Bayesian inference.
+My journey in AI began as a data scientist in industry prior to my Ph.D., where I developed a passion for building robust, scalable, deployable systems. One of my favorite projects was developing a sequential decision-making system for automated portfolio optimization, which was deployed in production at a Mexican investment bank. This system integrated machine learning, optimization, and expert views via Bayesian inference.
 
 This practical foundation led me to pursue a Ph.D. at UT Austin to work on RL, machine learning, and robotics, building on my mathematics background (BSc from ITAM, master's from Cambridge). Key projects included developing an efficient real-time deep-learning vision system for autonomous soccer robots that competed in the RoboCup competition, and creating a new algorithm for goal-conditioned RL. I also developed statistical models used by UT Austin to issue COVID-19 response recommendations to government officials in Austin, Texas. I further expanded my research experience through internships at Meta AI (FAIR) and Intel AI, working on RL and computer vision, alongside numerous collaborations with experts across diverse fields.
 

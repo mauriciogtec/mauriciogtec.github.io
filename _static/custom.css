@@ -1,83 +1,261 @@
-/* Theme over-rides */
-h1, h2, h3, h4, h5 {
-  color: var(--pst-color-text-muted);
+/* ============================================
+   Terminal UI Theme for mauriciogtec.com
+   ============================================ */
+
+/* -- Hide theme chrome -- */
+.bd-header,
+.bd-footer,
+.bd-sidebar-primary,
+.bd-sidebar-secondary,
+.breadcrumb-container,
+.header-article-items,
+.back-to-top,
+#pst-back-to-top,
+.search-button,
+.bd-header-article,
+.prev-next-area {
+    display: none !important;
 }
 
-h1, h2 {
-  font-weight: bold;
+/* -- Base styles -- */
+html {
+    background: #0d1117;
 }
 
-
-/* Bio area */
-div.profile-pic {
-    margin-top: 1em;
+body {
+    background: #0d1117;
+    color: #c9d1d9;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-div.profile-pic img {
-    border-radius: 500px;
-    width: 80%;
-    max-width: 190px;
-    margin: 0 auto;
-    display: block;
+/* Override pydata theme variables */
+html[data-theme="light"],
+html[data-theme="dark"] {
+    --pst-color-background: #0d1117;
+    --pst-color-on-background: #c9d1d9;
+    --pst-color-text-base: #c9d1d9;
+    --pst-color-text-muted: #8b949e;
+    --pst-color-link: #58a6ff;
+    --pst-color-link-hover: #79c0ff;
+    --pst-color-border: #30363d;
 }
 
-.bio-info {
-    margin: 1em auto;
-    max-width: 220px;
+/* -- Main content area -- */
+.bd-main {
+    background: #0d1117;
 }
 
-.name {
-    font-size: 1.5em;
+.bd-content {
+    max-width: 100%;
+    padding: 0;
 }
 
-.focusareas {
-    font-size: .9em;
-    font-weight: bold;
+.bd-article-container {
+    max-width: 100%;
+    padding: 0;
 }
 
-.whatido {
-    margin-top: 1em;
+.bd-article {
+    padding: 0;
 }
 
-/* Timeline CSS */
-div.timeline div.card {
-    border: 0px;
+article.bd-article {
+    padding: 0;
+    max-width: 100%;
 }
 
-div.timeline div.left {
-    text-align: right;
-    border-right: 1px solid var(--pst-color-border);
+/* Remove article padding/margins from pydata theme */
+.bd-page-width {
+    max-width: 100%;
 }
 
-div.timeline div.entry::after {
-    width: 1em;
-    height: 1em;
-    background: var(--pst-color-background);
-    border-radius: 50%;
-    content: "";
-    top: 0.8rem;
-    display: block;
+main.bd-content #main-content,
+main.bd-content .bd-content .bd-article-container {
+    max-width: 100%;
+}
+
+/* -- Terminal window frame -- */
+.terminal-window {
+    background: #0d1117;
+    border: 1px solid #30363d;
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.4);
+    overflow: hidden;
+}
+
+.terminal-titlebar {
+    background: #161b22;
+    padding: 12px 16px;
     position: relative;
-    border: 1px var(--pst-color-text-base) solid;
-    z-index: 999;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
-div.timeline div.entry.left::after {
-    right: -1.3em;
+/* Title bar dots */
+.terminal-titlebar::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #ff5f56;
+    border-radius: 50%;
+    box-shadow:
+        20px 0 0 #ffbd2e,
+        40px 0 0 #27c93f;
 }
 
-div.timeline div.entry.right::after {
-    left: -1.3em;
+/* Title bar text */
+.terminal-titlebar::after {
+    content: 'mauricio@harvard:~';
+    color: #8b949e;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-
-/* Blog post comments */
-.gsc-reactions {
-    margin-top: 1em;
+/* -- Terminal body -- */
+.terminal-body {
+    padding: 24px 28px;
 }
 
-/* Twitter embed CSS */
-div.twitter-tweet {
-    margin-left: auto;
-    margin-right: auto;
+/* -- Command prompts (inline code) -- */
+.terminal-body > p > code,
+.terminal-body > p > .literal {
+    background: none;
+    border: none;
+    color: #58a6ff;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.terminal-body > p > code::before,
+.terminal-body > p > .literal::before {
+    content: none;
+}
+
+.terminal-body > p > code::after,
+.terminal-body > p > .literal::after {
+    content: none;
+}
+
+/* -- Terminal output blocks -- */
+.terminal-output {
+    color: #c9d1d9;
+    padding: 4px 0 16px 20px;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.terminal-output p {
+    margin: 0.3em 0;
+}
+
+/* -- Headings -- */
+h1, h2, h3, h4, h5, h6 {
+    color: #c9d1d9;
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    border-bottom: none;
+}
+
+/* Hide the page title since we use the terminal prompt style */
+h1:first-of-type {
+    display: none;
+}
+
+/* -- Links -- */
+a {
+    color: #58a6ff;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    color: #79c0ff;
+}
+
+/* -- Images -- */
+.terminal-output img {
+    max-width: 100%;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    margin: 8px 0;
+}
+
+/* Image captions */
+.terminal-output .caption,
+.terminal-output em {
+    color: #8b949e;
+    font-size: 12px;
+}
+
+/* -- Lists in terminal output -- */
+.terminal-output ul,
+.terminal-output ol {
+    padding-left: 1.2em;
+    margin: 0.3em 0;
+}
+
+.terminal-output li {
+    margin: 0.2em 0;
+}
+
+/* -- Separator lines -- */
+.terminal-body hr {
+    border: none;
+    border-top: 1px solid #30363d;
+    margin: 16px 0;
+}
+
+/* -- Code blocks -- */
+pre {
+    background: #161b22;
+    border: 1px solid #30363d;
+    border-radius: 6px;
+    padding: 12px 16px;
+    color: #c9d1d9;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    overflow-x: auto;
+}
+
+/* -- Responsive -- */
+@media (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+
+    .terminal-window {
+        margin: 16px 8px;
+        border-radius: 8px;
+    }
+
+    .terminal-body {
+        padding: 16px;
+    }
+
+    .terminal-titlebar::after {
+        font-size: 11px;
+    }
+
+    .terminal-output {
+        padding-left: 12px;
+        font-size: 12px;
+    }
+}
+
+/* -- Remove toctree from display -- */
+.toctree-wrapper {
+    display: none;
 }

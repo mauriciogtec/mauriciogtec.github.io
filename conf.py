@@ -19,6 +19,7 @@ exclude_patterns = [
     "README.md",
     "CLAUDE.md",
     "import_posts.ipynb",
+    ".claude/**",
     "**/.ipynb_checkpoints/*",
 ]
 

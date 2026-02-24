@@ -12,54 +12,66 @@ html_theme.sidebar_secondary.remove: true
 `$ whoami`
 
 :::{div} terminal-output
-**Mauricio Tec** · AI Research Scientist · Harvard University
+**Mauricio Tec** · Sr. Applied Scientist · Amazon AGI
 :::
 
 `$ cat about.txt`
 
 :::{div} terminal-output
-I build AI systems that work in the real world. My focus is on reinforcement learning, LLMs, and diffusion generative models. I care about shipping things that matter — from autonomous robots to deployed decision-making systems.
-
-Currently at Harvard's CS Department and Data Science Initiative, working on RL for LLM agents, transfer learning for diffusion LLMs, online RLHF with LLM judges, and foundation models for counterfactual inference.
+RL post-training for frontier models at Amazon AGI. Previously built autonomous robots, trained RL policies for public health, and trained foundation models at Harvard.
 :::
 
 `$ open robocup.jpg`
 
 :::{div} terminal-output
-![RoboCup 2022 — Bangkok, Thailand](_static/robot-detective.jpeg)
-:::
-
-`$ ls projects/`
-
-:::{div} terminal-output
-- [RL for LLM agents](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) — using RL to enhance LLM agent performance and interpretability
-- [Diffusion LLM transfer](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) — new transfer learning techniques for diffusion language models
-- [Online RLHF](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) — improving robustness of RLHF with LLM judges
-- [Counterfactual inference](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) — foundation models for causal estimation
-- [RoboCup autonomous robots](https://www.robocup.org/) — real-time deep learning vision for soccer robots
-- [Heat alert optimization](https://arxiv.org/abs/2312.14196) — RL for public health policy
+![RoboCup 2022 — Bangkok. Top-5 finish, autonomous robot soccer.](_static/robot-detective.jpeg)
 :::
 
 `$ cat experience.txt`
 
 :::{div} terminal-output
-**Harvard University** · Research Associate · 2022–present
-**Meta AI (FAIR)** · Research Intern · 2020
-**Intel AI** · Research Intern · 2019
-**CIBanco** · Data Scientist · 2016–2017
+```
+Amazon AGI · Harvard · Meta AI (FAIR) · Intel · CI Strategies
+PhD UT Austin · MSc Cambridge University · BSc ITAM
+```
+:::
 
-PhD Statistics (ML focus) · UT Austin
-MSc Mathematics · University of Cambridge
-BSc Applied Mathematics · ITAM
+`$ ls projects/examples/`
+
+:::{div} terminal-output
+- [rule-bottleneck-rl](projects/rule-bottleneck-rl) — RL agents that explain their own decisions
+- [robust-dpo](projects/robust-dpo) — making RLHF work when humans disagree
+- [diffusion-transfer](projects/diffusion-transfer) — adapting diffusion LLMs without retraining
+- [adversarial-intrinsic-motivation](projects/adversarial-intrinsic-motivation) — teaching RL agents to explore
+- [robot-soccer-vision](projects/robot-soccer-vision) — real-time deep learning vision on low-end robot hardware
+- [heat-alerts](projects/heat-alerts) — RL for public health policy
+- [equivariant-topo-nn](projects/equivariant-topo-nn) — geometry-aware neural nets for molecules
 :::
 
 `$ cat links.txt`
 
 :::{div} terminal-output
-[github](https://github.com/mauriciogtec/) · [scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) · [linkedin](https://www.linkedin.com/in/mauriciogtec) · [twitter](https://twitter.com/mauriciogtec) · [cv](_static/cv.pdf)
+[github](https://github.com/mauriciogtec/) · [scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) · [linkedin](https://www.linkedin.com/in/mauriciogtec) · [x](https://x.com/mauriciogtec)
+:::
+
+`$ cat /etc/motd`
+
+:::{div} terminal-output
+*Parts of this site are AI-maintained. Errors may exist. When in doubt, check the papers.*
 :::
 
 `$ _`
 
 ::::
 :::::
+
+```{toctree}
+:hidden:
+projects/robot-soccer-vision
+projects/rule-bottleneck-rl
+projects/robust-dpo
+projects/diffusion-transfer
+projects/equivariant-topo-nn
+projects/heat-alerts
+projects/adversarial-intrinsic-motivation
+```

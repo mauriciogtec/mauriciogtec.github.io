@@ -18,7 +18,7 @@ html_theme.sidebar_secondary.remove: true
 `$ cat about.txt`
 
 :::{div} terminal-output
-RL post-training for frontier models at Amazon AGI. Previously built autonomous robots, trained RL policies for public health, and trained foundation models at Harvard.
+Agentic RL post-training for frontier models at Amazon AGI. Previously built autonomous robots, trained RL policies for public health, and trained foundation models at Harvard.
 :::
 
 `$ open robocup.jpg`
@@ -45,7 +45,7 @@ PhD UT Austin · MSc Cambridge University · BSc ITAM
 - [adversarial-intrinsic-motivation](projects/adversarial-intrinsic-motivation) — teaching RL agents to explore
 - [robot-soccer-vision](projects/robot-soccer-vision) — real-time deep learning vision on low-end robot hardware
 - [heat-alerts](projects/heat-alerts) — RL for public health policy
-- [equivariant-topo-nn](projects/equivariant-topo-nn) — geometry-aware neural nets for molecules
+- [equivariant-topo-nn](projects/equivariant-topo-nn) — geometry-aware neural networks for complex structured data
 :::
 
 `$ cat links.txt`

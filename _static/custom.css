@@ -328,6 +328,25 @@ pre {
     display: none;
 }
 
+/* -- Blinking cursor on the last prompt -- */
+@keyframes blink {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0; }
+}
+
+.terminal-body > p:last-of-type > code,
+.terminal-body > p:last-of-type > .literal {
+    position: relative;
+}
+
+.terminal-body > p:last-of-type > code::after,
+.terminal-body > p:last-of-type > .literal::after {
+    content: '\2588';
+    animation: blink 1s step-end infinite;
+    color: var(--term-prompt);
+    margin-left: 2px;
+}
+
 /* -- Smooth transitions for theme switching -- */
 html,
 body,

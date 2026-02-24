@@ -27,10 +27,16 @@ If you're doing post-training alignment on LLMs with real human feedback (which 
 
 :::
 
+`$ cat /etc/motd`
+
+:::{div} terminal-output
+*// ...built with Claude Code. based on data, but verify.*
+:::
+
 `$ cd ~`
 
 :::{div} terminal-output
-[read the paper](https://arxiv.org/abs/2510.23590) · [back to home](../index)
+[learn more](https://arxiv.org/abs/2510.23590) · [back to home](../index)
 :::
 
 ::::

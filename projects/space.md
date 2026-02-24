@@ -25,6 +25,12 @@ The whole pipeline is automated: data generation, spatial graph construction, mo
 
 :::
 
+`$ cat /etc/motd`
+
+:::{div} terminal-output
+*// ...built with Claude Code. based on data, but verify.*
+:::
+
 `$ cd ~`
 
 :::{div} terminal-output

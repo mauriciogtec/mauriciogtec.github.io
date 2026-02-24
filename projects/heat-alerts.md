@@ -27,10 +27,16 @@ This is RL applied to real public health infrastructure, not a simulated benchma
 
 :::
 
+`$ cat /etc/motd`
+
+:::{div} terminal-output
+*// ...built with Claude Code. based on data, but verify.*
+:::
+
 `$ cd ~`
 
 :::{div} terminal-output
-[read the paper](https://arxiv.org/abs/2312.14196) · [back to home](../index)
+[learn more](https://arxiv.org/abs/2312.14196) · [back to home](../index)
 :::
 
 ::::

@@ -57,7 +57,7 @@ PhD UT Austin · MSc Cambridge University · BSc ITAM
 `$ cat /etc/motd`
 
 :::{div} terminal-output
-*Parts of this site are AI-maintained. Errors may exist. When in doubt, check the papers.*
+*// ...built with Claude Code. based on data, but verify.*
 :::
 
 `$ _`

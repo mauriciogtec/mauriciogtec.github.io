@@ -27,10 +27,16 @@ The broader bet: higher-order structure + geometric symmetry is the right induct
 
 :::
 
+`$ cat /etc/motd`
+
+:::{div} terminal-output
+*// ...built with Claude Code. based on data, but verify.*
+:::
+
 `$ cd ~`
 
 :::{div} terminal-output
-[read the paper](https://arxiv.org/abs/2405.15429) · [back to home](../index)
+[learn more](https://arxiv.org/abs/2405.15429) · [back to home](../index)
 :::
 
 ::::

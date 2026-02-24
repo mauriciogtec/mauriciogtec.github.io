@@ -11,12 +11,12 @@
 <meta property="og:type" content="website" />
 <meta property="og:url" content="https://mauriciogtec.com/projects/adversarial-intrinsic-motivation/" />
 <meta property="og:site_name" content="Mauricio Tec" />
-<meta property="og:description" content="$ cat projects/adversarial-intrinsic-motivation.md Adversarial Intrinsic Motivation RL agents are lazy explorers. Without dense rewards, they tend to stay close to where they started. Goal-conditio..." />
+<meta property="og:description" content="$ cat projects/adversarial-intrinsic-motivation.md Adversarial Intrinsic Motivation Grid world experiments — AIM reward vs sparse reward RL agents are lazy explorers. Without dense rewards, they te..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_projects_adversarial-intrinsic-motivation_34168f4f.png" />
-<meta property="og:image:alt" content="$ cat projects/adversarial-intrinsic-motivation.md Adversarial Intrinsic Motivation RL agents are lazy explorers. Without dense rewards, they tend to stay close to where they started. Goal-conditio..." />
-<meta name="description" content="$ cat projects/adversarial-intrinsic-motivation.md Adversarial Intrinsic Motivation RL agents are lazy explorers. Without dense rewards, they tend to stay close to where they started. Goal-conditio..." />
+<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_projects_adversarial-intrinsic-motivation_bc11c1c9.png" />
+<meta property="og:image:alt" content="$ cat projects/adversarial-intrinsic-motivation.md Adversarial Intrinsic Motivation Grid world experiments — AIM reward vs sparse reward RL agents are lazy explorers. Without dense rewards, they te..." />
+<meta name="description" content="$ cat projects/adversarial-intrinsic-motivation.md Adversarial Intrinsic Motivation Grid world experiments — AIM reward vs sparse reward RL agents are lazy explorers. Without dense rewards, they te..." />
 <meta name="twitter:card" content="summary_large_image" />
 
     <title>Adversarial Intrinsic Motivation &#8212; Mauricio Tec</title>
@@ -43,7 +43,7 @@
 
     <link rel="stylesheet" type="text/css" href="../../_static/pygments.css?v=8f2a1f02" />
     <link rel="stylesheet" type="text/css" href="../../_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
-    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=cc929637" />
+    <link rel="stylesheet" type="text/css" href="../../_static/custom.css?v=30fa4a1d" />
     <link rel="stylesheet" type="text/css" href="../../_static/sphinx-design.min.css?v=95c83b7e" />
   
   <!-- So that users can add custom icons -->
@@ -218,13 +218,18 @@
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">projects/adversarial-intrinsic-motivation.md</span></code></p>
 <div class="terminal-output docutils">
 <p><strong>Adversarial Intrinsic Motivation</strong></p>
+<p><img alt="Grid world experiments — AIM reward vs sparse reward" src="../../_images/aim.png" /></p>
 <p>RL agents are lazy explorers. Without dense rewards, they tend to stay close to where they started. Goal-conditioned RL makes this worse — the agent needs to reach arbitrary goals in state space, but the extrinsic reward is sparse and uninformative until you’re basically already there.</p>
 <p>This project builds an intrinsic reward based on the Wasserstein-1 distance between where the agent is visiting and where it should be visiting. The key property: unlike most learned distance functions, this one changes smoothly with MDP transitions. That means the reward signal doesn’t vanish or explode as the agent moves through state space — it always points in a useful direction.</p>
 <p>Paired with Hindsight Experience Replay, it makes goal-conditioned agents learn significantly faster on simulated robotics tasks. The insight generalizes: if you can build a distance function that respects the topology of your MDP, exploration gets a lot easier. NeurIPS 2021.</p>
 </div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">/etc/motd</span></code></p>
+<div class="terminal-output docutils">
+<p><em>// …built with Claude Code. based on data, but verify.</em></p>
+</div>
 <p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">~</span></code></p>
 <div class="terminal-output docutils">
-<p><a class="reference external" href="https://arxiv.org/abs/2105.13345">read the paper</a> · <a class="reference internal" href="../../"><span class="doc std std-doc">back to home</span></a></p>
+<p><a class="reference external" href="https://arxiv.org/abs/2105.13345">learn more</a> · <a class="reference internal" href="../../"><span class="doc std std-doc">back to home</span></a></p>
 </div>
 </div>
 </div>

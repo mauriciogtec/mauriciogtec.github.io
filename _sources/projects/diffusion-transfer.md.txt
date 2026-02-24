@@ -25,10 +25,16 @@ The result: 7% of parameters trained, works across data regimes, and dominates f
 
 :::
 
+`$ cat /etc/motd`
+
+:::{div} terminal-output
+*// ...built with Claude Code. based on data, but verify.*
+:::
+
 `$ cd ~`
 
 :::{div} terminal-output
-[read the paper](https://arxiv.org/abs/2512.10877) · [back to home](../index)
+[learn more](https://arxiv.org/abs/2512.10877) · [back to home](../index)
 :::
 
 ::::

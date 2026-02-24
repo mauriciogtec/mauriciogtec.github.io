@@ -29,10 +29,16 @@ UT Austin Villa placed top-5 twice at the international competition. This projec
 
 :::
 
+`$ cat /etc/motd`
+
+:::{div} terminal-output
+*// ...built with Claude Code. based on data, but verify.*
+:::
+
 `$ cd ~`
 
 :::{div} terminal-output
-[read the paper](https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/RoboCup2022-nskiran.pdf) · [back to home](../index)
+[learn more](https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/RoboCup2022-nskiran.pdf) · [back to home](../index)
 :::
 
 ::::

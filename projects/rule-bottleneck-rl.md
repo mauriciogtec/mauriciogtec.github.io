@@ -27,10 +27,16 @@ This is the kind of RL I'm most excited about — agents that can explain what t
 
 :::
 
+`$ cat /etc/motd`
+
+:::{div} terminal-output
+*// ...built with Claude Code. based on data, but verify.*
+:::
+
 `$ cd ~`
 
 :::{div} terminal-output
-[read the paper](https://arxiv.org/abs/2502.10732) · [back to home](../index)
+[learn more](https://arxiv.org/abs/2502.10732) · [back to home](../index)
 :::
 
 ::::

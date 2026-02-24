@@ -7,19 +7,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="About" />
+<meta property="og:title" content="Terminal" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="" />
-<meta property="og:site_name" content="Mauricio Tec's Personal Website" />
-<meta property="og:description" content="I am an applied research scientist with a strong interdisciplinary background spanning computer science, statistics, and mathematics. I currently work on reinforcement learning (RL), LLMs, and diff..." />
+<meta property="og:url" content="https://mauriciogtec.com" />
+<meta property="og:site_name" content="Mauricio Tec" />
+<meta property="og:description" content="$ whoami Mauricio Tec · Sr. Applied Scientist · Amazon AGI$ cat about.txt RL post-training for frontier models at Amazon AGI. Previously built autonomous robots, trained RL policies for public heal..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="_images/social_previews/summary_index_a49d4a2b.png" />
-<meta property="og:image:alt" content="I am an applied research scientist with a strong interdisciplinary background spanning computer science, statistics, and mathematics. I currently work on reinforcement learning (RL), LLMs, and diff..." />
-<meta name="description" content="I am an applied research scientist with a strong interdisciplinary background spanning computer science, statistics, and mathematics. I currently work on reinforcement learning (RL), LLMs, and diff..." />
+<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_index_2bb47bb1.png" />
+<meta property="og:image:alt" content="$ whoami Mauricio Tec · Sr. Applied Scientist · Amazon AGI$ cat about.txt RL post-training for frontier models at Amazon AGI. Previously built autonomous robots, trained RL policies for public heal..." />
+<meta name="description" content="$ whoami Mauricio Tec · Sr. Applied Scientist · Amazon AGI$ cat about.txt RL post-training for frontier models at Amazon AGI. Previously built autonomous robots, trained RL policies for public heal..." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>About &#8212; Mauricio Tec&#39;s website</title>
+    <title>Terminal &#8212; Mauricio Tec</title>
   
   
   
@@ -42,10 +42,8 @@
 <link href="_static/styles/pydata-sphinx-theme.css?digest=8878045cc6db502f8baf" rel="stylesheet" />
 
     <link rel="stylesheet" type="text/css" href="_static/pygments.css?v=8f2a1f02" />
-    <link rel="stylesheet" type="text/css" href="_static/mystnb.4510f1fc1dee50b3e5859aac5469c37c29e427902b24a333a5f9fcb2f0b3ac41.css" />
-    <link rel="stylesheet" type="text/css" href="_static/copybutton.css?v=76b2166b" />
-    <link rel="stylesheet" type="text/css" href="_static/styles/sphinx-examples.css?v=e236af4b" />
-    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=b93cd24b" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.8ecb98da25f57f5357bf6f572d296f466b2cfe2517ffebfabe82451661e28f02.css" />
+    <link rel="stylesheet" type="text/css" href="_static/custom.css?v=cc929637" />
     <link rel="stylesheet" type="text/css" href="_static/sphinx-design.min.css?v=95c83b7e" />
   
   <!-- So that users can add custom icons -->
@@ -57,8 +55,6 @@
     <script src="_static/documentation_options.js?v=187304be"></script>
     <script src="_static/doctools.js?v=9bcbadda"></script>
     <script src="_static/sphinx_highlight.js?v=dc90522c"></script>
-    <script src="_static/clipboard.min.js?v=a7894cd8"></script>
-    <script src="_static/copybutton.js?v=f281be69"></script>
     <script src="_static/design-tabs.js?v=f930bc37"></script>
     <script async="async" src="https://www.googletagmanager.com/gtag/js?id=G-D010PP32WC"></script>
     <script>
@@ -75,23 +71,31 @@
             </script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'index';</script>
     <link rel="icon" href="_static/profile-color-circle-small.png"/>
-    <link rel="author" title="About these documents" href="about/" />
     <link rel="index" title="Index" href="genindex/" />
-    <link rel="search" title="Search" href="search/" /> 
+    <link rel="search" title="Search" href="search/" />
+    <link rel="next" title="Robot Soccer Vision" href="projects/robot-soccer-vision/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   <meta name="docsearch:version" content="" />
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.4.2/css/fontawesome.min.css"
-        integrity="sha384-BY+fdrpOd3gfeRvTSMT+VUZmA728cfF9Z2G42xpaRkUGu2i3DyzpTURDo5A6CaLK" crossorigin="anonymous">
- 
-<link
-  rel="alternate"
-  type="application/atom+xml"
-  href="blog/atom.xml"
-  title="Mauricio Tec"
-/>
-  
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<meta name="theme-color" content="#0d1117">
+<script>
+// Apply saved theme or system preference before paint to avoid flash
+(function() {
+  var saved = localStorage.getItem('terminal-theme');
+  if (saved) {
+    document.documentElement.setAttribute('data-theme', saved);
+  } else if (window.matchMedia('(prefers-color-scheme: light)').matches) {
+    document.documentElement.setAttribute('data-theme', 'light');
+  } else {
+    document.documentElement.setAttribute('data-theme', 'dark');
+  }
+})();
+</script>
+
   </head>
   
   
@@ -116,8 +120,8 @@
   <input type="search"
          class="form-control"
          name="q"
-         placeholder="Search this site..."
-         aria-label="Search this site..."
+         placeholder=""
+         aria-label=""
          autocomplete="off"
          autocorrect="off"
          autocapitalize="off"
@@ -132,138 +136,6 @@
 
   
     <header class="bd-header navbar navbar-expand-lg bd-navbar d-print-none">
-<div class="bd-header__inner bd-page-width">
-  <button class="pst-navbar-icon sidebar-toggle primary-toggle" aria-label="Site navigation">
-    <span class="fa-solid fa-bars"></span>
-  </button>
-  
-  
-  <div class="col-lg-3 navbar-header-items__start">
-    
-      <div class="navbar-item">
-
-  
-    
-  
-
-<a class="navbar-brand logo" href="#">
-  
-  
-  
-  
-  
-  
-    <p class="title logo__title">Mauricio Tec's website</p>
-  
-</a></div>
-    
-  </div>
-  
-  <div class="col-lg-9 navbar-header-items">
-    
-    <div class="me-auto navbar-header-items__center">
-      
-        <div class="navbar-item">
-<nav>
-  <ul class="bd-navbar-elements navbar-nav">
-    
-  </ul>
-</nav></div>
-      
-    </div>
-    
-    
-    <div class="navbar-header-items__end">
-      
-        <div class="navbar-item navbar-persistent--container">
-          
-
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button>
-        </div>
-      
-      
-        <div class="navbar-item">
-
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button></div>
-      
-        <div class="navbar-item"><ul class="navbar-icon-links"
-    aria-label="Icon Links">
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://github.com/mauriciogtec/" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
-            <span class="sr-only">GitHub</span></a>
-        </li>
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://twitter.com/mauriciogtec" title="Twitter" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i>
-            <span class="sr-only">Twitter</span></a>
-        </li>
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=enc" title="Google Scholar" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-graduation-cap fa-lg" aria-hidden="true"></i>
-            <span class="sr-only">Google Scholar</span></a>
-        </li>
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://www.linkedin.com/in/mauriciogtec" title="LinkedIn" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-linkedin fa-lg" aria-hidden="true"></i>
-            <span class="sr-only">LinkedIn</span></a>
-        </li>
-</ul></div>
-      
-    </div>
-    
-  </div>
-  
-  
-    <div class="navbar-persistent--mobile">
-
-<button class="btn search-button-field search-button__button pst-js-only" title="Search" aria-label="Search" data-bs-placement="bottom" data-bs-toggle="tooltip">
- <i class="fa-solid fa-magnifying-glass"></i>
- <span class="search-button__default-text">Search</span>
- <span class="search-button__kbd-shortcut"><kbd class="kbd-shortcut__modifier">Ctrl</kbd>+<kbd class="kbd-shortcut__modifier">K</kbd></span>
-</button>
-    </div>
-  
-
-  
-</div>
-
     </header>
   
 
@@ -275,182 +147,16 @@
         
       
       <dialog id="pst-primary-sidebar-modal"></dialog>
-      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar">
+      <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
         
 
   
   <div class="sidebar-header-items sidebar-primary__section">
     
     
-      <div class="sidebar-header-items__center">
-        
-          
-          
-            <div class="navbar-item">
-<nav>
-  <ul class="bd-navbar-elements navbar-nav">
     
-  </ul>
-</nav></div>
-          
-        
-      </div>
-    
-    
-    
-      <div class="sidebar-header-items__end">
-        
-          <div class="navbar-item">
-
-<button class="btn btn-sm nav-link pst-navbar-icon theme-switch-button pst-js-only" aria-label="Color mode" data-bs-title="Color mode"  data-bs-placement="bottom" data-bs-toggle="tooltip">
-  <i class="theme-switch fa-solid fa-sun                fa-lg" data-mode="light" title="Light"></i>
-  <i class="theme-switch fa-solid fa-moon               fa-lg" data-mode="dark"  title="Dark"></i>
-  <i class="theme-switch fa-solid fa-circle-half-stroke fa-lg" data-mode="auto"  title="System Settings"></i>
-</button></div>
-        
-          <div class="navbar-item"><ul class="navbar-icon-links"
-    aria-label="Icon Links">
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://github.com/mauriciogtec/" title="GitHub" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-github fa-lg" aria-hidden="true"></i>
-            <span class="sr-only">GitHub</span></a>
-        </li>
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://twitter.com/mauriciogtec" title="Twitter" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-twitter fa-lg" aria-hidden="true"></i>
-            <span class="sr-only">Twitter</span></a>
-        </li>
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=enc" title="Google Scholar" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-solid fa-graduation-cap fa-lg" aria-hidden="true"></i>
-            <span class="sr-only">Google Scholar</span></a>
-        </li>
-        <li class="nav-item">
-          
-          
-          
-          
-          
-          
-          
-          
-          <a href="https://www.linkedin.com/in/mauriciogtec" title="LinkedIn" class="nav-link pst-navbar-icon" rel="noopener" target="_blank" data-bs-toggle="tooltip" data-bs-placement="bottom"><i class="fa-brands fa-linkedin fa-lg" aria-hidden="true"></i>
-            <span class="sr-only">LinkedIn</span></a>
-        </li>
-</ul></div>
-        
-      </div>
     
   </div>
-  
-    <div class="sidebar-primary-items__start sidebar-primary__section">
-        <div class="sidebar-primary-item"><div class="profile-pic"><img src="_static/profile-bw.png" /></div>
-
-<div class="bio-info">
-    <div class="name">
-        Mauricio Tec
-    </div>
-    <!-- <div class="focusareas", style="align-items: center;">
-        AI | Stats | Social Impact | Robotics
-    </div> -->
-    <div class="whatido">
-        Drag and click for fun. For more fun, try my <a href="https://mauriciogtec-live-cv.streamlit.app"> 🤖 LIVE CV</a>.
-        <div id="myGraph" style="fill: rgb(25, 173, 227);"></div>
-    </div> 
-    <!-- for the next use monospace font -->
-    <div class="email">
-        <b>Email:</b> mauriciogtec-at-g.harvard.edu
-    </div>
-    <br>
-</div>
-
-<style>
-    .nodetext {
-        visibility: visible;
-        text-anchor: middle;
-        font-size: 11px;
-        dominant-baseline: middle;
-    }
-
-    .node {
-        cursor: pointer;
-    }
-</style>
-<script src="https://d3js.org/d3.v7.min.js"></script>
-<script>
-    var svg = d3.select("#myGraph").append("svg").attr("width", 200).attr("height", 250);
-    var nodes_data = [
-        { id: 1, image: "../_static/icon-github-blue.svg", link: "https://github.com/mauriciogtec", label: "Github" },
-        { id: 2, image: "../_static/icon-twitter-blue.svg", link: "https://twitter.com/mauriciogtec", label: "Twitter" },
-        { id: 3, image: "../_static/icon-scholar-blue.svg", link: "https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en", label: "Google Scholar" },
-        { id: 4, image: "../_static/icon-linkedin-blue.svg", link: "https://www.linkedin.com/in/mauriciogtec/", label: "Linkedin" },
-        // { id: 5, image: "../_static/icon-cv-blue.svg", link: "../_static/cv.pdf", label: "CV" },
-        { id: 5, image: "../_static/icon-robot-color.svg", link: "https://mauriciogtec-live-cv.streamlit.app", label: "Live CV"}
-    ];
-    var links_data = [{ source: 1, target: 2 }, { source: 2, target: 3 }, { source: 3, target: 4 }, { source: 4, target: 5 }, { source: 5, target: 1 }];
-    var simulation = d3.forceSimulation(nodes_data)
-        .force("link", d3.forceLink().id(d => d.id))
-        .force("charge", d3.forceManyBody().strength(-800))
-        .force("center", d3.forceCenter(100, 125))
-        .force("radial", d3.forceRadial(function (d) {
-            return Math.sqrt(d.x * d.x + d.y * d.y);
-        }).strength(0.3)).alpha(0.3);
-    var link = svg.append("g").selectAll("line").data(links_data).enter().append("line");
-    var node = svg.append("g").selectAll("g").data(nodes_data).enter().append("g").attr("class", "node");
-    var images = node.append("image").attr("xlink:href", d => d.image).attr("width", 35).attr("height", 35).attr("transform", "translate(-20,-20)").call(d3.drag().on("start", dragstarted).on("drag", dragged).on("end", dragended));
-    images.on("mouseover", function () {
-        d3.select(this).attr("width", 45).attr("height", 45).attr("transform", "translate(-25,-25)");
-        d3.select(this.parentNode).select("text").style("fill", "rgb(40, 200, 260)").style("visibility", "visible").style("font-size", "13px");
-    })
-        .on("mouseout", function () {
-            d3.select(this).attr("width", 35).attr("height", 35).attr("transform", "translate(-20,-20)");
-            d3.select(this.parentNode).select("text").style("fill", "rgb(25, 173, 227)").style("visibility", "visible").style("font-size", "11px");
-        })
-    node.append("text").attr("class", "nodetext").attr("dy", 32).style("visibility", "visible").text(d => d.label);
-    node.attr("href", d => d.link).on("click", function (event, d) { window.open(d.link, "_blank"); });
-    simulation.nodes(nodes_data).on("tick", ticked);
-    simulation.force("link").links(links_data);
-    function ticked() {
-        link.attr("x1", d => d.source.x).attr("y1", d => d.source.y).attr("x2", d => d.target.x).attr("y2", d => d.target.y);
-        node.attr("transform", function (d) { return "translate(" + d.x + "," + d.y + ")"; });
-    }
-    function dragstarted(event, d) {
-        if (!event.active) simulation.alphaTarget(0.3).restart();
-        d.fx = d.x;
-        d.fy = d.y;
-    }
-    function dragged(event, d) {
-        d.fx = event.x;
-        d.fy = event.y;
-    }
-    function dragended(event, d) {
-        if (!event.active) simulation.alphaTarget(0.1);
-        d.fx = null;
-        d.fy = null;
-    }
-</script></div>
-    </div>
   
   
   <div class="sidebar-primary-items__end sidebar-primary__section">
@@ -480,131 +186,100 @@
                 
 <div id="searchbox"></div>
                 <article class="bd-article">
-                   <section id="about">
-<h1>About<a class="headerlink" href="#about" title="Link to this heading">#</a></h1>
-<p>I am an applied research scientist with a strong interdisciplinary background spanning computer science, statistics, and mathematics. I currently work on reinforcement learning (RL), LLMs, and diffusion generative models at the Harvard Computer Science Department and the Harvard Data Science Initiative.</p>
-<p><strong>I am passionate about building AI systems that can be deployed in real-world settings. I welcome discussions about collaborations and career opportunities in these areas.</strong></p>
-<p>Recent projects I have worked on include using RL to enhance LLM agent performance and interpretability, developing new transfer learning techniques for diffusion LLMs, improving the robustness of online RLHF with LLM judges, and training foundation models for counterfactual inference. My work has been published in top-tier computer science conferences and scientific journals.</p>
-<section id="background">
-<h2>Background<a class="headerlink" href="#background" title="Link to this heading">#</a></h2>
-<p>My journey in AI began as a data scientist in industry prior to my Ph.D., where I developed a passion for building robust, scalable, deployable systems. One of my favorite projects was developing a sequential decision-making system for automated portfolio optimization, which was deployed in production at an investment bank in Mexico. This system integrated machine learning, optimization, and expert views via Bayesian inference.</p>
-<p>This practical foundation led me to pursue a Ph.D. at UT Austin to work on RL, machine learning, and robotics, building on my mathematics background (BSc from ITAM, master’s from Cambridge). Key projects included developing an efficient real-time deep-learning vision system for autonomous soccer robots that competed in the RoboCup competition, and creating a new algorithm for goal-conditioned RL. I also developed statistical models used by UT Austin to issue COVID-19 response recommendations to government officials in Austin, Texas. I further expanded my research experience through internships at Meta AI (FAIR) and Intel AI, working on RL and computer vision, alongside numerous collaborations with experts across diverse fields.</p>
-<p>The thread connecting all my work is a commitment to building AI systems that facilitate optimal decision-making in real-world applications. Ultimately, I aim to develop data-driven systems that can operate autonomously and smartly in both digital and physical worlds.</p>
-<!-- 
-## Research
-
-My current projects focus on three directions: first, leveraging LLMs for reinforcement learning, particularly for improving explainability, generalization, and as engines for generative agent-based simulations; second, leveraging diffusion generative models as powerful engines for causal reasoning and planning; and third, developing new representation learning methods for decision-making tasks. Check my [Google Scholar](https://scholar.google.com/citations?user=AF_rzg8AAAAJ&hl=en) for more details about my previous work. -->
-<!-- ## Bio
-
-I hold a BSc and Masters in Mathematics from ITAM and The University of Cambridge. I completed my PhD in Machine Learning and Statistics at UT Austin focusing on reinforcement learning and computer vision applications, where I was also a member of the [Learning Agents Research Group](https://www.cs.utexas.edu/~pstone/research.shtml]) at the Computer Science Department. During this time, I participated in the UT Austin Villa Robot Soccer Team, where I developed a deep-learning vision system for autonomous soccer robots and competed at the [Robocup](https://www.robocup.org/events/upcoming_events). Additionally, I held internships at Meta AI (FAIR) and Intel AI, and was as a core member of UT Austin's Covid-19 response team during the pandemic. -->
-<p><img alt="robot-detective" src="_images/robot-detective.jpeg" />
-2022 Robocup competition, Bangkok, Thailand</p>
-<!-- 
-### Research
-
-My research interests focus on the following key areas:
-
-1. **Representations for counterfactual reasoning and planning**: Developing representations that provide reliable guarantees for counterfactual reasoning, particularly in offline settings. This research intersects with causal inference, offline reinforcement learning, and world models.
-
-
-2. **Self-supervised learning**: Developing learning methods from unlabeled or partially labeled data across multiple modalities and tasks. The goal is to create foundation models that can be easily fine-tuned for counterfactual inference and sequential decision-making tasks, robust to distributional shifts, and adaptable to new features or datasets. 
-
-3. **Common-sense and external knowledge**: Fascinated by AI systems that can leverage external common-sense reasoning to overcome *tabula rasa* learning. With the advent of LLMs and foundation models, combining LLMs and other foundation models with learning embeddings of features to improve the generalization of models to new tasks and domains.
-
-904. **Representations in structured graph-like domains**: Learning representations in structured domains such as graph-based and temporal data. In addition to graph neural networks, I have adopted the topological deep learning paradigm, which allows for capturing higher-order interactions in the data.
-
-My work has been published in top-tier conferences such as NeurIPS, ICLR, and AAAI, and in scientific journals such as the Proceedings of the National Academy of Sciences. Supported by the National Science Foundation and the National Institutes of Health, this research has significant implications for public health, particularly in designing AI-driven interventions and policies for climate change adaptation and mitigation.
-
-  ⚠️ *Our group is looking for motivated students, interns, and postdocs to join our research efforts. If you are interested in working with us, please reach out.* -->
-<!-- ::::{grid}
-:::{grid-item-card}
-:link: about
-More about me ℹ️
-::: -->
-<!-- :::{grid-item-card}
-:link: projects
-Projects I've worked on 🔧
-:::
-:::{grid-item-card}     
-:link: blog
-My blog 📝  
-::: -->
-<!-- :::: -->
-<!-- 
-
-### News
-
-   - **[2024-06-15]** ✨ New grant as co-PI funded by the NSF and NIH for "Synergizing Topological Deep Learning and Spatio-Temporal Causal Inference." This methodological grant will enable new possibilities for (possibly multi-modal, multi-resolution) spatiotemporal data.
-
-- **[2024-05-22]** 📃 New ArXiV paper: [E(n)-Equivariant Topological Neural Networks](https://arxiv.org/pdf/2405.15429). Check out our [blog post](https://clabat9.medium.com/3117f582d6bf).
-
-- **[2024-05-17]** 🔥 Our paper [Causal Estimation of Exposure Shifts with Neural Networks](https://arxiv.org/pdf/2312.00710.pdf) has been accepted to KDD 2024. See you in Barcelona!
-
-- **[2024-02-01]** 🔨 Our workshop *Training Agents with Foundation Models* in the Reinforcement Learning Conference (RLC) 2024 is to be held on August 9th, 2024. We will release the website and call for papers soon! Reach out to `tafm.rlc@gmail.com`.
-
-- **[2024-02-01]** 📃 New manuscript: [Optimizing Heat Alert Issuance with Reinforcement Learning](https://arxiv.org/abs/2312.14196). My first paper as senior author.
-
-- **[2024-01-16]** 🔥 New paper: [SpaCE](https://arxiv.org/pdf/2312.00710.pdf) paper has been accepted to ICLR 2024. See you in Vienna!
-
-- **[2024-01-15]** 🤖 Created a [LIVE CV](https://mauriciogtec-live-cv.streamlit.app), powered by retrieval augmented generation. Have fun asking your own questions about my research and work experience.
-
-- **[2023-12-10]** Started this new website based on [Chris Holdgraf's new blog template](https://chrisholdgraf.com/blog/2020/sphinx-blogging/).
-
-- **[2023-09-01]** Promoted to Research Associate at Harvard University. I will continue my research as usual but take on more projects in a senior role and propose grant applications.
-  
-- **[2023-05-15]** ✨ New grant as Co-PI awarded by the [Harvard Chan-NIEHS](https://www.hsph.harvard.edu/niehs/) to develop new computer vision architectures that are robust for prediction under covariate shift (with applications to projecting climate change's health impacts).
-
-- **[2023-03-01]** 📃 New ArXiV paper [*Causal Estimation of Exposure Shifts with Neural networks*](https://arxiv.org/pdf/2302.02560.p  df).
-
-- **[2022-08-15]** Started a postdoc at Harvard University, Department of Biostatistics. -->
-<!-- #### CV
-
-Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), powered by LLMs and RAG. Have fun asking your own questions. You can also download an outdated pdf <a href="_static/cv.pdf" target="_blank"> ⬇ here</a>. *Last updated:* 2024-03-30. -->
-<!-- #### Experience
-
-* Harvard University, *Research Associate*, 2023+
-* Harvard University, *Postdoctoral Fellow*, 2022--2023
-* Meta AI (FAIR), *Research Intern*, 2020
-* Intel AI, *Research Intern*, 2019
-* CIBanco, *Data Scientist*, 2016--2017 -->
-<!-- #### Education
-
-* Ph.D. in Statistics (Machine Learning), *UT Austin*
-* M.S. in Mathematics, *University of Cambridge*
-* B.S. in Applied Mathematics, *ITAM* -->
-<!-- * Exchange student at Université Paris-Dauphine -->
-<!-- 
-#### Hobbies
-
-🚲 🎾 🐕
-
-<img src="_static/family.jpeg" alt="family" width="500"/>
- -->
+                  
+  <section id="terminal">
+<h1>Terminal<a class="headerlink" href="#terminal" title="Link to this heading">#</a></h1>
+<div class="terminal-window docutils">
+<div class="terminal-titlebar docutils">
+</div>
+<div class="terminal-body docutils">
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">whoami</span></code></p>
+<div class="terminal-output docutils">
+<p><strong>Mauricio Tec</strong> · Sr. Applied Scientist · Amazon AGI</p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">about.txt</span></code></p>
+<div class="terminal-output docutils">
+<p>RL post-training for frontier models at Amazon AGI. Previously built autonomous robots, trained RL policies for public health, and trained foundation models at Harvard.</p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">open</span> <span class="pre">robocup.jpg</span></code></p>
+<div class="terminal-output docutils">
+<p><img alt="RoboCup 2022 — Bangkok. Top-5 finish, autonomous robot soccer." src="_images/robot-detective.jpeg" /></p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">experience.txt</span></code></p>
+<div class="terminal-output docutils">
+<div class="highlight-default notranslate"><div class="highlight"><pre><span></span>Amazon AGI · Harvard · Meta AI (FAIR) · Intel · CI Strategies
+PhD UT Austin · MSc Cambridge University · BSc ITAM
+</pre></div>
+</div>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">ls</span> <span class="pre">projects/examples/</span></code></p>
+<div class="terminal-output docutils">
+<ul class="simple">
+<li><p><a class="reference internal" href="projects/rule-bottleneck-rl/"><span class="doc std std-doc">rule-bottleneck-rl</span></a> — RL agents that explain their own decisions</p></li>
+<li><p><a class="reference internal" href="projects/robust-dpo/"><span class="doc std std-doc">robust-dpo</span></a> — making RLHF work when humans disagree</p></li>
+<li><p><a class="reference internal" href="projects/diffusion-transfer/"><span class="doc std std-doc">diffusion-transfer</span></a> — adapting diffusion LLMs without retraining</p></li>
+<li><p><a class="reference internal" href="projects/adversarial-intrinsic-motivation/"><span class="doc std std-doc">adversarial-intrinsic-motivation</span></a> — teaching RL agents to explore</p></li>
+<li><p><a class="reference internal" href="projects/robot-soccer-vision/"><span class="doc std std-doc">robot-soccer-vision</span></a> — real-time deep learning vision on low-end robot hardware</p></li>
+<li><p><a class="reference internal" href="projects/heat-alerts/"><span class="doc std std-doc">heat-alerts</span></a> — RL for public health policy</p></li>
+<li><p><a class="reference internal" href="projects/equivariant-topo-nn/"><span class="doc std std-doc">equivariant-topo-nn</span></a> — geometry-aware neural nets for molecules</p></li>
+</ul>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">links.txt</span></code></p>
+<div class="terminal-output docutils">
+<p><a class="reference external" href="https://github.com/mauriciogtec/">github</a> · <a class="reference external" href="https://scholar.google.com/citations?user=AF_rzg8AAAAJ&amp;amp;hl=en">scholar</a> · <a class="reference external" href="https://www.linkedin.com/in/mauriciogtec">linkedin</a> · <a class="reference external" href="https://x.com/mauriciogtec">x</a></p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">/etc/motd</span></code></p>
+<div class="terminal-output docutils">
+<p><em>Parts of this site are AI-maintained. Errors may exist. When in doubt, check the papers.</em></p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">_</span></code></p>
+</div>
+</div>
 <div class="toctree-wrapper compound">
 </div>
 </section>
-</section>
 
-<div class="section ablog__blog_comments">
-   
-</div>
 
                 </article>
               
-<!-- Add a comment box underneath the page's content -->
-<!-- <script src="https://giscus.app/client.js"
-        data-repo="mauriciogtec/mauriciogtec.github.io"
-        data-repo-id=""
-        data-category="Blog comments"
-        data-category-id="DIC_kwDOAw3Qvs4CAV4E"
-        data-mapping="pathname"
-        data-reactions-enabled="1"
-        data-emit-metadata="0"
-        data-theme="light"
-        data-lang="en"
-        crossorigin="anonymous"
-        async>
-</script> -->
+<script>
+(function() {
+  // Insert toggle button into titlebar
+  var titlebar = document.querySelector('.terminal-titlebar');
+  if (!titlebar) return;
+
+  var btn = document.createElement('button');
+  btn.className = 'theme-toggle';
+  btn.setAttribute('aria-label', 'Toggle light/dark mode');
+  updateLabel();
+  titlebar.appendChild(btn);
+
+  btn.addEventListener('click', function() {
+    var current = document.documentElement.getAttribute('data-theme');
+    var next = current === 'dark' ? 'light' : 'dark';
+    document.documentElement.setAttribute('data-theme', next);
+    localStorage.setItem('terminal-theme', next);
+    // Update meta theme-color
+    var meta = document.querySelector('meta[name="theme-color"]');
+    if (meta) meta.setAttribute('content', next === 'dark' ? '#0d1117' : '#f6f8fa');
+    updateLabel();
+  });
+
+  function updateLabel() {
+    var theme = document.documentElement.getAttribute('data-theme');
+    btn.textContent = theme === 'light' ? '☀ dark/light' : '☾ dark/light';
+  }
+
+  // Listen for system preference changes (when no saved preference)
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+    if (!localStorage.getItem('terminal-theme')) {
+      var next = e.matches ? 'dark' : 'light';
+      document.documentElement.setAttribute('data-theme', next);
+      updateLabel();
+    }
+  });
+})();
+</script>
 
               
               
@@ -613,6 +288,15 @@ Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), 
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="right-next"
+       href="projects/robot-soccer-vision/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Robot Soccer Vision</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               
@@ -635,44 +319,6 @@ Try my [🤖 Live CV Chatbot here](https://mauriciogtec-live-cv.streamlit.app), 
 <script defer src="_static/scripts/pydata-sphinx-theme.js?digest=8878045cc6db502f8baf"></script>
 
   <footer class="bd-footer">
-<div class="bd-footer__inner bd-page-width">
-  
-    <div class="footer-items__start">
-      
-        <div class="footer-item">
-
-  <p class="copyright">
-    
-      © Copyright 2022, Chris Holdgraf; 2023, Mauricio Tec.
-      <br/>
-    
-  </p>
-</div>
-      
-        <div class="footer-item">
-
-  <p class="sphinx-version">
-    Created using <a href="https://www.sphinx-doc.org/">Sphinx</a> 8.1.3.
-    <br/>
-  </p>
-</div>
-      
-    </div>
-  
-  
-  
-    <div class="footer-items__end">
-      
-        <div class="footer-item">
-<p class="theme-version">
-  <!-- # L10n: Setting the PST URL as an argument as this does not need to be localized -->
-  Built with the <a href="https://pydata-sphinx-theme.readthedocs.io/en/stable/index.html">PyData Sphinx Theme</a> 0.16.1.
-</p></div>
-      
-    </div>
-  
-</div>
-
   </footer>
   </body>
 </html>

@@ -7,19 +7,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="Test hidden file" />
+<meta property="og:title" content="Heat Alert Optimization" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://mauriciogtec.com/hidden/test/" />
+<meta property="og:url" content="https://mauriciogtec.com/projects/heat-alerts/" />
 <meta property="og:site_name" content="Mauricio Tec" />
-<meta property="og:description" content="Testing content." />
+<meta property="og:description" content="$ cat projects/heat-alerts.md Optimizing Heat Alert Issuance with RL Heat alert decision system Cities issue heat alerts to protect vulnerable people. The problem: they issue them based on fixed te..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_hidden_test_4640786c.png" />
-<meta property="og:image:alt" content="Testing content." />
-<meta name="description" content="Testing content." />
+<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_projects_heat-alerts_b44ebbb7.png" />
+<meta property="og:image:alt" content="$ cat projects/heat-alerts.md Optimizing Heat Alert Issuance with RL Heat alert decision system Cities issue heat alerts to protect vulnerable people. The problem: they issue them based on fixed te..." />
+<meta name="description" content="$ cat projects/heat-alerts.md Optimizing Heat Alert Issuance with RL Heat alert decision system Cities issue heat alerts to protect vulnerable people. The problem: they issue them based on fixed te..." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>Test hidden file &#8212; Mauricio Tec</title>
+    <title>Heat Alert Optimization &#8212; Mauricio Tec</title>
   
   
   
@@ -69,10 +69,12 @@
                 gtag('js', new Date());
                 gtag('config', 'G-D010PP32WC');
             </script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'hidden/test';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'projects/heat-alerts';</script>
     <link rel="icon" href="../../_static/profile-color-circle-small.png"/>
     <link rel="index" title="Index" href="../../genindex/" />
     <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Adversarial Intrinsic Motivation" href="../adversarial-intrinsic-motivation/" />
+    <link rel="prev" title="Equivariant Topological Neural Networks" href="../equivariant-topo-nn/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -143,8 +145,6 @@
       
       
       
-        
-      
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
         
@@ -192,7 +192,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Test hidden file</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Heat Alert Optimization</span></li>
   </ul>
 </nav>
 </div>
@@ -210,9 +210,27 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="test-hidden-file">
-<h1>Test hidden file<a class="headerlink" href="#test-hidden-file" title="Link to this heading">#</a></h1>
-<p>Testing content.</p>
+  <section id="heat-alert-optimization">
+<h1>Heat Alert Optimization<a class="headerlink" href="#heat-alert-optimization" title="Link to this heading">#</a></h1>
+<div class="terminal-window docutils">
+<div class="terminal-titlebar docutils">
+</div>
+<div class="terminal-body docutils">
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">projects/heat-alerts.md</span></code></p>
+<div class="terminal-output docutils">
+<p><strong>Optimizing Heat Alert Issuance with RL</strong></p>
+<p><img alt="Heat alert decision system" src="../../_images/heatalerts.png" /></p>
+<p>Cities issue heat alerts to protect vulnerable people. The problem: they issue them based on fixed temperature thresholds. That’s a blunt instrument when what actually matters is a complex interaction of weather, demographics, historical exposure, and alert fatigue.</p>
+<p>This project reframes heat alert issuance as an RL problem. The environment is built from real data — 15 years of daily weather, Medicare hospitalization records, and county-level demographics across 2,500+ US counties. The reward model is Bayesian, because the causal signal is noisy and heterogeneous across locations.</p>
+<p>The first surprise: unconstrained RL fails hard. It either never alerts or always alerts. The fix is constraint-based — budget the number of alerts per season and let the policy learn <em>when</em> they matter most. The constrained policy outperforms the National Weather Service’s current approach.</p>
+<p>This is RL applied to real public health infrastructure, not a simulated benchmark. The kind of problem where getting the reward function right matters more than the algorithm. AAAI 2025.</p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">~</span></code></p>
+<div class="terminal-output docutils">
+<p><a class="reference external" href="https://arxiv.org/abs/2312.14196">read the paper</a> · <a class="reference internal" href="../../"><span class="doc std std-doc">back to home</span></a></p>
+</div>
+</div>
+</div>
 </section>
 
 
@@ -264,6 +282,24 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../equivariant-topo-nn/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Equivariant Topological Neural Networks</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../adversarial-intrinsic-motivation/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Adversarial Intrinsic Motivation</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               

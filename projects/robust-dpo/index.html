@@ -7,19 +7,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="Test hidden file" />
+<meta property="og:title" content="Robust DPO" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://mauriciogtec.com/hidden/test/" />
+<meta property="og:url" content="https://mauriciogtec.com/projects/robust-dpo/" />
 <meta property="og:site_name" content="Mauricio Tec" />
-<meta property="og:description" content="Testing content." />
+<meta property="og:description" content="$ cat projects/robust-dpo.md Robust DPO DPO-PRO penalty curve DPO is elegant — it turns RLHF into a supervised learning problem. But it has a dirty secret: it trusts every preference label equally...." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_hidden_test_4640786c.png" />
-<meta property="og:image:alt" content="Testing content." />
-<meta name="description" content="Testing content." />
+<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_projects_robust-dpo_f29e7169.png" />
+<meta property="og:image:alt" content="$ cat projects/robust-dpo.md Robust DPO DPO-PRO penalty curve DPO is elegant — it turns RLHF into a supervised learning problem. But it has a dirty secret: it trusts every preference label equally...." />
+<meta name="description" content="$ cat projects/robust-dpo.md Robust DPO DPO-PRO penalty curve DPO is elegant — it turns RLHF into a supervised learning problem. But it has a dirty secret: it trusts every preference label equally...." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>Test hidden file &#8212; Mauricio Tec</title>
+    <title>Robust DPO &#8212; Mauricio Tec</title>
   
   
   
@@ -69,10 +69,12 @@
                 gtag('js', new Date());
                 gtag('config', 'G-D010PP32WC');
             </script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'hidden/test';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'projects/robust-dpo';</script>
     <link rel="icon" href="../../_static/profile-color-circle-small.png"/>
     <link rel="index" title="Index" href="../../genindex/" />
     <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Guided Transfer for Diffusion LLMs" href="../diffusion-transfer/" />
+    <link rel="prev" title="Rule-Bottleneck RL" href="../rule-bottleneck-rl/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -143,8 +145,6 @@
       
       
       
-        
-      
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
         
@@ -192,7 +192,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Test hidden file</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Robust DPO</span></li>
   </ul>
 </nav>
 </div>
@@ -210,9 +210,27 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="test-hidden-file">
-<h1>Test hidden file<a class="headerlink" href="#test-hidden-file" title="Link to this heading">#</a></h1>
-<p>Testing content.</p>
+  <section id="robust-dpo">
+<h1>Robust DPO<a class="headerlink" href="#robust-dpo" title="Link to this heading">#</a></h1>
+<div class="terminal-window docutils">
+<div class="terminal-titlebar docutils">
+</div>
+<div class="terminal-body docutils">
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">projects/robust-dpo.md</span></code></p>
+<div class="terminal-output docutils">
+<p><strong>Robust DPO</strong></p>
+<p><img alt="DPO-PRO penalty curve" src="../../_images/dpo-pro.png" /></p>
+<p>DPO is elegant — it turns RLHF into a supervised learning problem. But it has a dirty secret: it trusts every preference label equally. In practice, human annotators disagree constantly. Feed DPO noisy preferences and it overfits to the noise.</p>
+<p>This project adds a distributionally robust layer on top of DPO. The math works out to something intuitive: down-weight preference pairs where the signal is weak. The penalty is highest exactly where annotator uncertainty peaks — near the 50/50 coin-flip zone.</p>
+<p>The implementation adds essentially zero overhead. A few extra lines in the loss function, no architectural changes, no extra hyperparameter sweeps. It just makes alignment training more honest about what it doesn’t know.</p>
+<p>If you’re doing post-training alignment on LLMs with real human feedback (which is always messy), this is the kind of robustness fix that should probably be on by default.</p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">~</span></code></p>
+<div class="terminal-output docutils">
+<p><a class="reference external" href="https://arxiv.org/abs/2510.23590">read the paper</a> · <a class="reference internal" href="../../"><span class="doc std std-doc">back to home</span></a></p>
+</div>
+</div>
+</div>
 </section>
 
 
@@ -264,6 +282,24 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../rule-bottleneck-rl/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Rule-Bottleneck RL</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../diffusion-transfer/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Guided Transfer for Diffusion LLMs</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               

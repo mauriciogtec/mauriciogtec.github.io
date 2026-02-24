@@ -1,83 +1,342 @@
-/* Theme over-rides */
-h1, h2, h3, h4, h5 {
-  color: var(--pst-color-text-muted);
+/* ============================================
+   Terminal UI Theme for mauriciogtec.com
+   Light/Dark mode with system detection
+   ============================================ */
+
+/* -- Color palettes via CSS variables -- */
+:root {
+    --term-bg: #0d1117;
+    --term-bg-secondary: #161b22;
+    --term-text: #c9d1d9;
+    --term-text-muted: #8b949e;
+    --term-border: #30363d;
+    --term-link: #58a6ff;
+    --term-link-hover: #79c0ff;
+    --term-prompt: #58a6ff;
+    --term-shadow: rgba(0, 0, 0, 0.4);
+    --term-img-border: #30363d;
 }
 
-h1, h2 {
-  font-weight: bold;
+html[data-theme="light"] {
+    --term-bg: #f6f8fa;
+    --term-bg-secondary: #e8ecf0;
+    --term-text: #24292f;
+    --term-text-muted: #57606a;
+    --term-border: #d0d7de;
+    --term-link: #0969da;
+    --term-link-hover: #0550ae;
+    --term-prompt: #0969da;
+    --term-shadow: rgba(0, 0, 0, 0.1);
+    --term-img-border: #d0d7de;
 }
 
-
-/* Bio area */
-div.profile-pic {
-    margin-top: 1em;
+/* System preference detection (when no explicit theme is set) */
+@media (prefers-color-scheme: light) {
+    html:not([data-theme="dark"]):not([data-theme="light"]) {
+        --term-bg: #f6f8fa;
+        --term-bg-secondary: #e8ecf0;
+        --term-text: #24292f;
+        --term-text-muted: #57606a;
+        --term-border: #d0d7de;
+        --term-link: #0969da;
+        --term-link-hover: #0550ae;
+        --term-prompt: #0969da;
+        --term-shadow: rgba(0, 0, 0, 0.1);
+        --term-img-border: #d0d7de;
+    }
 }
 
-div.profile-pic img {
-    border-radius: 500px;
-    width: 80%;
-    max-width: 190px;
-    margin: 0 auto;
-    display: block;
+/* -- Hide theme chrome -- */
+.bd-header,
+.bd-footer,
+.bd-sidebar-primary,
+.bd-sidebar-secondary,
+.breadcrumb-container,
+.header-article-items,
+.back-to-top,
+#pst-back-to-top,
+.search-button,
+.bd-header-article,
+.prev-next-area {
+    display: none !important;
 }
 
-.bio-info {
-    margin: 1em auto;
-    max-width: 220px;
+/* -- Base styles -- */
+html {
+    background: var(--term-bg);
 }
 
-.name {
-    font-size: 1.5em;
+body {
+    background: var(--term-bg);
+    color: var(--term-text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
 }
 
-.focusareas {
-    font-size: .9em;
-    font-weight: bold;
+/* Override pydata theme variables */
+html[data-theme="light"],
+html[data-theme="dark"],
+html {
+    --pst-color-background: var(--term-bg);
+    --pst-color-on-background: var(--term-text);
+    --pst-color-text-base: var(--term-text);
+    --pst-color-text-muted: var(--term-text-muted);
+    --pst-color-link: var(--term-link);
+    --pst-color-link-hover: var(--term-link-hover);
+    --pst-color-border: var(--term-border);
 }
 
-.whatido {
-    margin-top: 1em;
+/* -- Main content area -- */
+.bd-main {
+    background: var(--term-bg);
 }
 
-/* Timeline CSS */
-div.timeline div.card {
-    border: 0px;
+.bd-content {
+    max-width: 100%;
+    padding: 0;
 }
 
-div.timeline div.left {
-    text-align: right;
-    border-right: 1px solid var(--pst-color-border);
+.bd-article-container {
+    max-width: 100%;
+    padding: 0;
 }
 
-div.timeline div.entry::after {
-    width: 1em;
-    height: 1em;
-    background: var(--pst-color-background);
-    border-radius: 50%;
-    content: "";
-    top: 0.8rem;
-    display: block;
+.bd-article {
+    padding: 0;
+}
+
+article.bd-article {
+    padding: 0;
+    max-width: 100%;
+}
+
+.bd-page-width {
+    max-width: 100%;
+}
+
+main.bd-content #main-content,
+main.bd-content .bd-content .bd-article-container {
+    max-width: 100%;
+}
+
+/* -- Terminal window frame -- */
+.terminal-window {
+    background: var(--term-bg);
+    border: 1px solid var(--term-border);
+    border-radius: 10px;
+    margin: 40px auto;
+    max-width: 800px;
+    box-shadow: 0 8px 32px var(--term-shadow);
+    overflow: hidden;
+}
+
+.terminal-titlebar {
+    background: var(--term-bg-secondary);
+    padding: 12px 16px;
     position: relative;
-    border: 1px var(--pst-color-text-base) solid;
-    z-index: 999;
+    min-height: 20px;
+    display: flex;
+    align-items: center;
 }
 
-div.timeline div.entry.left::after {
-    right: -1.3em;
+/* Title bar dots */
+.terminal-titlebar::before {
+    content: '';
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: #ff5f56;
+    border-radius: 50%;
+    box-shadow:
+        20px 0 0 #ffbd2e,
+        40px 0 0 #27c93f;
 }
 
-div.timeline div.entry.right::after {
-    left: -1.3em;
+/* Title bar text */
+.terminal-titlebar::after {
+    content: 'mauriciogtec [at] gmail:~';
+    color: var(--term-text-muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
 }
 
-
-/* Blog post comments */
-.gsc-reactions {
-    margin-top: 1em;
+/* -- Theme toggle button -- */
+.theme-toggle {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: 1px solid var(--term-border);
+    border-radius: 4px;
+    color: var(--term-text-muted);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 12px;
+    cursor: pointer;
+    padding: 2px 8px;
+    line-height: 1.4;
+    transition: color 0.2s, border-color 0.2s;
+    z-index: 10;
 }
 
-/* Twitter embed CSS */
-div.twitter-tweet {
-    margin-left: auto;
-    margin-right: auto;
+.theme-toggle:hover {
+    color: var(--term-text);
+    border-color: var(--term-text-muted);
+}
+
+/* -- Terminal body -- */
+.terminal-body {
+    padding: 24px 28px;
+}
+
+/* -- Command prompts (inline code) -- */
+.terminal-body > p > code,
+.terminal-body > p > .literal {
+    background: none;
+    border: none;
+    color: var(--term-prompt);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 0;
+}
+
+.terminal-body > p > code::before,
+.terminal-body > p > .literal::before {
+    content: none;
+}
+
+.terminal-body > p > code::after,
+.terminal-body > p > .literal::after {
+    content: none;
+}
+
+/* -- Terminal output blocks -- */
+.terminal-output {
+    color: var(--term-text);
+    padding: 4px 0 16px 20px;
+    font-size: 13px;
+    line-height: 1.7;
+}
+
+.terminal-output p {
+    margin: 0.3em 0;
+}
+
+/* -- Headings -- */
+h1, h2, h3, h4, h5, h6 {
+    color: var(--term-text);
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 700;
+    border-bottom: none;
+}
+
+/* Hide the page title since we use the terminal prompt style */
+h1:first-of-type {
+    display: none;
+}
+
+/* -- Links -- */
+a {
+    color: var(--term-link);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+a:hover {
+    color: var(--term-link-hover);
+}
+
+/* -- Images -- */
+.terminal-output img {
+    max-width: 100%;
+    border: 1px solid var(--term-img-border);
+    border-radius: 6px;
+    margin: 8px 0;
+}
+
+/* Image captions */
+.terminal-output .caption,
+.terminal-output em {
+    color: var(--term-text-muted);
+    font-size: 12px;
+}
+
+/* -- Lists in terminal output -- */
+.terminal-output ul,
+.terminal-output ol {
+    padding-left: 1.2em;
+    margin: 0.3em 0;
+}
+
+.terminal-output li {
+    margin: 0.2em 0;
+}
+
+/* -- Separator lines -- */
+.terminal-body hr {
+    border: none;
+    border-top: 1px solid var(--term-border);
+    margin: 16px 0;
+}
+
+/* -- Code blocks -- */
+pre {
+    background: var(--term-bg-secondary);
+    border: 1px solid var(--term-border);
+    border-radius: 6px;
+    padding: 12px 16px;
+    color: var(--term-text);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 13px;
+    overflow-x: auto;
+}
+
+/* -- Responsive -- */
+@media (max-width: 768px) {
+    body {
+        font-size: 13px;
+    }
+
+    .terminal-window {
+        margin: 16px 8px;
+        border-radius: 8px;
+    }
+
+    .terminal-body {
+        padding: 16px;
+    }
+
+    .terminal-titlebar::after {
+        font-size: 11px;
+    }
+
+    .terminal-output {
+        padding-left: 12px;
+        font-size: 12px;
+    }
+}
+
+/* -- Remove toctree from display -- */
+.toctree-wrapper {
+    display: none;
+}
+
+/* -- Smooth transitions for theme switching -- */
+html,
+body,
+.terminal-window,
+.terminal-titlebar,
+.terminal-body,
+.terminal-output,
+.theme-toggle,
+a,
+pre {
+    transition: background-color 0.3s, color 0.3s, border-color 0.3s, box-shadow 0.3s;
 }

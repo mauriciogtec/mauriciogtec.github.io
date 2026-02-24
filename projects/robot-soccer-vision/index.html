@@ -7,19 +7,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="Test hidden file" />
+<meta property="og:title" content="Robot Soccer Vision" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://mauriciogtec.com/hidden/test/" />
+<meta property="og:url" content="https://mauriciogtec.com/projects/robot-soccer-vision/" />
 <meta property="og:site_name" content="Mauricio Tec" />
-<meta property="og:description" content="Testing content." />
+<meta property="og:description" content="$ cat projects/robot-soccer-vision.md Real-Time Vision for Autonomous Robot Soccer NAO robot detecting ball and opponents at 35 Hz on an Intel Atom CPU Five Aldebaran NAO robots per side. An Intel ..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_hidden_test_4640786c.png" />
-<meta property="og:image:alt" content="Testing content." />
-<meta name="description" content="Testing content." />
+<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_projects_robot-soccer-vision_483fbb24.png" />
+<meta property="og:image:alt" content="$ cat projects/robot-soccer-vision.md Real-Time Vision for Autonomous Robot Soccer NAO robot detecting ball and opponents at 35 Hz on an Intel Atom CPU Five Aldebaran NAO robots per side. An Intel ..." />
+<meta name="description" content="$ cat projects/robot-soccer-vision.md Real-Time Vision for Autonomous Robot Soccer NAO robot detecting ball and opponents at 35 Hz on an Intel Atom CPU Five Aldebaran NAO robots per side. An Intel ..." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>Test hidden file &#8212; Mauricio Tec</title>
+    <title>Robot Soccer Vision &#8212; Mauricio Tec</title>
   
   
   
@@ -69,10 +69,12 @@
                 gtag('js', new Date());
                 gtag('config', 'G-D010PP32WC');
             </script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'hidden/test';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'projects/robot-soccer-vision';</script>
     <link rel="icon" href="../../_static/profile-color-circle-small.png"/>
     <link rel="index" title="Index" href="../../genindex/" />
     <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Rule-Bottleneck RL" href="../rule-bottleneck-rl/" />
+    <link rel="prev" title="Terminal" href="../../" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -143,8 +145,6 @@
       
       
       
-        
-      
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
         
@@ -192,7 +192,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Test hidden file</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Robot Soccer Vision</span></li>
   </ul>
 </nav>
 </div>
@@ -210,9 +210,28 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="test-hidden-file">
-<h1>Test hidden file<a class="headerlink" href="#test-hidden-file" title="Link to this heading">#</a></h1>
-<p>Testing content.</p>
+  <section id="robot-soccer-vision">
+<h1>Robot Soccer Vision<a class="headerlink" href="#robot-soccer-vision" title="Link to this heading">#</a></h1>
+<div class="terminal-window docutils">
+<div class="terminal-titlebar docutils">
+</div>
+<div class="terminal-body docutils">
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">projects/robot-soccer-vision.md</span></code></p>
+<div class="terminal-output docutils">
+<p><strong>Real-Time Vision for Autonomous Robot Soccer</strong></p>
+<p><img alt="NAO robot detecting ball and opponents at 35 Hz on an Intel Atom CPU" src="../../_images/robocup-detection.png" /></p>
+<p>Five Aldebaran NAO robots per side. An Intel Atom E3845 CPU with 4GB of RAM. No cloud, no GPU worth mentioning, and a 33ms budget per frame — because the perception loop shares time with motion, localization, and coordination. That’s the hardware constraint in the RoboCup Standard Platform League.</p>
+<p>We built an end-to-end object detection pipeline that runs at 35 Hz on this hardware. The key was aggressive architecture search: we benchmarked YOLO and SSD variants, stripping them down to micro-scale networks (xYOLO-pico, xYOLO-nano) and running inference through TFLite with XNNPack optimizations. The top camera runs a full multi-class detector (ball, robots, crosses) at 98.7% mAP; the bottom camera runs a stripped variant at 80x80 resolution.</p>
+<p><img alt="Network architecture — a tiny YOLO-style backbone squeezed to fit a robot's brain" src="../../_images/robocup-arch.png" /></p>
+<p>We also built the data pipeline from scratch — annotating thousands of frames from competition logs using CVAT, with Efficient-Det D7 providing seed labels to speed up manual annotation. Three datasets, mosaic augmentation, photometric transforms for lighting robustness.</p>
+<p>UT Austin Villa placed top-5 twice at the international competition. This project shaped how I think about deploying AI: if it can’t run in real time on bad hardware under adversarial conditions, it doesn’t ship.</p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">~</span></code></p>
+<div class="terminal-output docutils">
+<p><a class="reference external" href="https://www.cs.utexas.edu/~pstone/Papers/bib2html-links/RoboCup2022-nskiran.pdf">read the paper</a> · <a class="reference internal" href="../../"><span class="doc std std-doc">back to home</span></a></p>
+</div>
+</div>
+</div>
 </section>
 
 
@@ -264,6 +283,24 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../../"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Terminal</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../rule-bottleneck-rl/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Rule-Bottleneck RL</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               

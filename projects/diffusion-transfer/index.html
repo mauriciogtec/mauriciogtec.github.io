@@ -7,19 +7,19 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="viewport" content="width=device-width, initial-scale=1" />
-<meta property="og:title" content="Test hidden file" />
+<meta property="og:title" content="Guided Transfer for Diffusion LLMs" />
 <meta property="og:type" content="website" />
-<meta property="og:url" content="https://mauriciogtec.com/hidden/test/" />
+<meta property="og:url" content="https://mauriciogtec.com/projects/diffusion-transfer/" />
 <meta property="og:site_name" content="Mauricio Tec" />
-<meta property="og:description" content="Testing content." />
+<meta property="og:description" content="$ cat projects/diffusion-transfer.md Guided Transfer for Diffusion LLMs Transfer performance across data regimes Discrete diffusion models are a different way to do language generation — instead of..." />
 <meta property="og:image:width" content="1146" />
 <meta property="og:image:height" content="600" />
-<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_hidden_test_4640786c.png" />
-<meta property="og:image:alt" content="Testing content." />
-<meta name="description" content="Testing content." />
+<meta property="og:image" content="https://mauriciogtec.com/_images/social_previews/summary_projects_diffusion-transfer_081260df.png" />
+<meta property="og:image:alt" content="$ cat projects/diffusion-transfer.md Guided Transfer for Diffusion LLMs Transfer performance across data regimes Discrete diffusion models are a different way to do language generation — instead of..." />
+<meta name="description" content="$ cat projects/diffusion-transfer.md Guided Transfer for Diffusion LLMs Transfer performance across data regimes Discrete diffusion models are a different way to do language generation — instead of..." />
 <meta name="twitter:card" content="summary_large_image" />
 
-    <title>Test hidden file &#8212; Mauricio Tec</title>
+    <title>Guided Transfer for Diffusion LLMs &#8212; Mauricio Tec</title>
   
   
   
@@ -69,10 +69,12 @@
                 gtag('js', new Date());
                 gtag('config', 'G-D010PP32WC');
             </script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'hidden/test';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'projects/diffusion-transfer';</script>
     <link rel="icon" href="../../_static/profile-color-circle-small.png"/>
     <link rel="index" title="Index" href="../../genindex/" />
     <link rel="search" title="Search" href="../../search/" />
+    <link rel="next" title="Equivariant Topological Neural Networks" href="../equivariant-topo-nn/" />
+    <link rel="prev" title="Robust DPO" href="../robust-dpo/" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
@@ -143,8 +145,6 @@
       
       
       
-        
-      
       <dialog id="pst-primary-sidebar-modal"></dialog>
       <div id="pst-primary-sidebar" class="bd-sidebar-primary bd-sidebar hide-on-wide">
         
@@ -192,7 +192,7 @@
         <i class="fa-solid fa-home"></i>
       </a>
     </li>
-    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Test hidden file</span></li>
+    <li class="breadcrumb-item active" aria-current="page"><span class="ellipsis">Guided Transfer for Diffusion LLMs</span></li>
   </ul>
 </nav>
 </div>
@@ -210,9 +210,26 @@
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section id="test-hidden-file">
-<h1>Test hidden file<a class="headerlink" href="#test-hidden-file" title="Link to this heading">#</a></h1>
-<p>Testing content.</p>
+  <section id="guided-transfer-for-diffusion-llms">
+<h1>Guided Transfer for Diffusion LLMs<a class="headerlink" href="#guided-transfer-for-diffusion-llms" title="Link to this heading">#</a></h1>
+<div class="terminal-window docutils">
+<div class="terminal-titlebar docutils">
+</div>
+<div class="terminal-body docutils">
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cat</span> <span class="pre">projects/diffusion-transfer.md</span></code></p>
+<div class="terminal-output docutils">
+<p><strong>Guided Transfer for Diffusion LLMs</strong></p>
+<p><img alt="Transfer performance across data regimes" src="../../_images/gtl.png" /></p>
+<p>Discrete diffusion models are a different way to do language generation — instead of autoregressive left-to-right, they denoise all tokens in parallel. Cool in theory. In practice, you pretrain one on a big corpus and then need it to work on your specific domain. Fine-tuning is expensive and you probably don’t have enough domain data.</p>
+<p>This project solves the transfer problem without touching the pretrained denoiser. The trick is classifier-guided sampling: train a lightweight guide network on your small target dataset and steer the diffusion process at inference time. The hard part was making this efficient — naive ratio-based guidance is exponential in vocab size. A scheduling trick brings it down to linear.</p>
+<p>The result: 7% of parameters trained, works across data regimes, and dominates fine-tuning when target data is scarce. That’s the regime that matters in practice — you rarely have millions of domain-specific examples.</p>
+</div>
+<p><code class="docutils literal notranslate"><span class="pre">$</span> <span class="pre">cd</span> <span class="pre">~</span></code></p>
+<div class="terminal-output docutils">
+<p><a class="reference external" href="https://arxiv.org/abs/2512.10877">read the paper</a> · <a class="reference internal" href="../../"><span class="doc std std-doc">back to home</span></a></p>
+</div>
+</div>
+</div>
 </section>
 
 
@@ -264,6 +281,24 @@
                 <footer class="prev-next-footer d-print-none">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="../robust-dpo/"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Robust DPO</p>
+      </div>
+    </a>
+    <a class="right-next"
+       href="../equivariant-topo-nn/"
+       title="next page">
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">next</p>
+        <p class="prev-next-title">Equivariant Topological Neural Networks</p>
+      </div>
+      <i class="fa-solid fa-angle-right"></i>
+    </a>
 </div>
                 </footer>
               

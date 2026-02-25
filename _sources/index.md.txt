@@ -18,7 +18,8 @@ html_theme.sidebar_secondary.remove: true
 `$ cat about.txt`
 
 :::{div} terminal-output
-Agentic RL post-training for frontier models at Amazon AGI. Previously built autonomous robots, trained RL policies for public health, and trained foundation models at Harvard.
+Agentic post-training for frontier models at Amazon AGI. Self-taught roboticist: vision + action + autonomy. Working on RL since before it was so trendy. No barriers between science and engineering. Computer Science + Math + Data Science. Vibe coding this website.
+
 :::
 
 `$ open robocup.jpg`
@@ -31,8 +32,8 @@ Agentic RL post-training for frontier models at Amazon AGI. Previously built aut
 
 :::{div} terminal-output
 ```
-Amazon AGI · Harvard · Meta AI (FAIR) · Intel · CI Strategies
-PhD UT Austin · MSc Cambridge University · BSc ITAM
+Amazon AGI · Harvard · Meta AI (FAIR) · Intel 
+PhD @ UT Austin · MSc @ Cambridge · BSc @ ITAM
 ```
 :::
 
@@ -44,7 +45,7 @@ PhD UT Austin · MSc Cambridge University · BSc ITAM
 - [diffusion-transfer](projects/diffusion-transfer) — adapting diffusion LLMs without retraining
 - [adversarial-intrinsic-motivation](projects/adversarial-intrinsic-motivation) — teaching RL agents to explore
 - [robot-soccer-vision](projects/robot-soccer-vision) — real-time deep learning vision on low-end robot hardware
-- [heat-alerts](projects/heat-alerts) — RL for public health policy
+- [heat-alerts](projects/heat-alerts) — RL for public  policy
 - [equivariant-topo-nn](projects/equivariant-topo-nn) — geometry-aware neural networks for complex structured data
 :::
 
